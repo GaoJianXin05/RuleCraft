@@ -1,0 +1,2844 @@
+{
+ "items": [
+  {
+   "id": "S_P01_V1",
+   "base_rule": "S_P01",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "Nobody waters the young plants in the tilled soil, and three hot, sunny days pass. What do the plants look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They wilt, droop and start to dry out.",
+    "neither": "They grow to full size and ripen."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P01_V1_before.png"
+  },
+  {
+   "id": "S_P01_V2",
+   "base_rule": "S_P01",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "Nobody waters the young plants in the tilled soil, and three hot, sunny days pass. What do the plants look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They wilt, droop and start to dry out.",
+    "neither": "They grow to full size and ripen."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P01_V2_before.png"
+  },
+  {
+   "id": "S_P01_V4",
+   "base_rule": "S_P01",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "Nobody waters the young plants in the tilled soil, and three hot, sunny days pass. What do the plants look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They wilt, droop and start to dry out.",
+    "neither": "They grow to full size and ripen."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P01_V4_before.png"
+  },
+  {
+   "id": "S_P02_V1",
+   "base_rule": "S_P02",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and a week of sunny weather passes. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become overripe and start to rot in the ground.",
+    "neither": "They shrink back into small seedlings."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P02_V1_before.png"
+  },
+  {
+   "id": "S_P02_V2",
+   "base_rule": "S_P02",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and a week of sunny weather passes. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become overripe and start to rot in the ground.",
+    "neither": "They shrink back into small seedlings."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P02_V2_before.png"
+  },
+  {
+   "id": "S_P02_V3",
+   "base_rule": "S_P02",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and a week of sunny weather passes. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become overripe and start to rot in the ground.",
+    "neither": "They shrink back into small seedlings."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P02_V3_before.png"
+  },
+  {
+   "id": "S_P02_V4",
+   "base_rule": "S_P02",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and a week of sunny weather passes. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become overripe and start to rot in the ground.",
+    "neither": "They shrink back into small seedlings."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P02_V4_before.png"
+  },
+  {
+   "id": "S_P03_V1",
+   "base_rule": "S_P03",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and it rains every day for a week. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become waterlogged and start to rot.",
+    "neither": "They are washed out of the soil."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P03_V1_before.png"
+  },
+  {
+   "id": "S_P03_V2",
+   "base_rule": "S_P03",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and it rains every day for a week. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become waterlogged and start to rot.",
+    "neither": "They are washed out of the soil."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P03_V2_before.png"
+  },
+  {
+   "id": "S_P03_V3",
+   "base_rule": "S_P03",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and it rains every day for a week. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become waterlogged and start to rot.",
+    "neither": "They are washed out of the soil."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P03_V3_before.png"
+  },
+  {
+   "id": "S_P03_V4",
+   "base_rule": "S_P03",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The vegetables in the image are ripe. Nobody picks them, and it rains every day for a week. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are still ripe and ready to pick, just as now.",
+    "real": "They become waterlogged and start to rot.",
+    "neither": "They are washed out of the soil."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P03_V4_before.png"
+  },
+  {
+   "id": "S_P04_V1",
+   "base_rule": "S_P04",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The torch stuck in the ground is lit. Nobody touches it for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned down and gone out.",
+    "neither": "It has turned into a small tree."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P04_V1_before.png"
+  },
+  {
+   "id": "S_P04_V2",
+   "base_rule": "S_P04",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The torch stuck in the ground is lit. Nobody touches it for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned down and gone out.",
+    "neither": "It has turned into a small tree."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P04_V2_before.png"
+  },
+  {
+   "id": "S_P04_V3",
+   "base_rule": "S_P04",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The torch stuck in the ground is lit. Nobody touches it for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned down and gone out.",
+    "neither": "It has turned into a small tree."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P04_V3_before.png"
+  },
+  {
+   "id": "S_P04_V4",
+   "base_rule": "S_P04",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The torch stuck in the ground is lit. Nobody touches it for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned down and gone out.",
+    "neither": "It has turned into a small tree."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P04_V4_before.png"
+  },
+  {
+   "id": "S_P05_V1",
+   "base_rule": "S_P05",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "It is raining, and it keeps raining for three days. What does the lit torch look like at the end?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "The rain has put the flame out.",
+    "neither": "It has grown taller."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P05_V1_before.png"
+  },
+  {
+   "id": "S_P05_V2",
+   "base_rule": "S_P05",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "It is raining, and it keeps raining for three days. What does the lit torch look like at the end?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "The rain has put the flame out.",
+    "neither": "It has grown taller."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P05_V2_before.png"
+  },
+  {
+   "id": "S_P05_V3",
+   "base_rule": "S_P05",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "It is raining, and it keeps raining for three days. What does the lit torch look like at the end?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "The rain has put the flame out.",
+    "neither": "It has grown taller."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P05_V3_before.png"
+  },
+  {
+   "id": "S_P05_V4",
+   "base_rule": "S_P05",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "It is raining, and it keeps raining for three days. What does the lit torch look like at the end?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "The rain has put the flame out.",
+    "neither": "It has grown taller."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P05_V4_before.png"
+  },
+  {
+   "id": "S_P06_V1",
+   "base_rule": "S_P06",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The campfire is burning. Nobody adds any wood, and a week passes. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned out, leaving a pile of ash.",
+    "neither": "It has spread into a large blaze."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P06_V1_before.png"
+  },
+  {
+   "id": "S_P06_V2",
+   "base_rule": "S_P06",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The campfire is burning. Nobody adds any wood, and a week passes. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned out, leaving a pile of ash.",
+    "neither": "It has spread into a large blaze."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P06_V2_before.png"
+  },
+  {
+   "id": "S_P06_V3",
+   "base_rule": "S_P06",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The campfire is burning. Nobody adds any wood, and a week passes. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned out, leaving a pile of ash.",
+    "neither": "It has spread into a large blaze."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P06_V3_before.png"
+  },
+  {
+   "id": "S_P06_V4",
+   "base_rule": "S_P06",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The campfire is burning. Nobody adds any wood, and a week passes. What does it look like at the end of the week?",
+   "options": {
+    "game": "It is still burning, just as now.",
+    "real": "It has burned out, leaving a pile of ash.",
+    "neither": "It has spread into a large blaze."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P06_V4_before.png"
+  },
+  {
+   "id": "S_P07_V1",
+   "base_rule": "S_P07",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The fruit on the tree is ripe. Nobody picks it, and a week passes. What does the tree look like at the end of the week?",
+   "options": {
+    "game": "The fruit is still hanging on the tree.",
+    "real": "The fruit has fallen to the ground and started to rot.",
+    "neither": "The tree has lost all its leaves."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P07_V1_before.png"
+  },
+  {
+   "id": "S_P07_V2",
+   "base_rule": "S_P07",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The fruit on the tree is ripe. Nobody picks it, and a week passes. What does the tree look like at the end of the week?",
+   "options": {
+    "game": "The fruit is still hanging on the tree.",
+    "real": "The fruit has fallen to the ground and started to rot.",
+    "neither": "The tree has lost all its leaves."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P07_V2_before.png"
+  },
+  {
+   "id": "S_P07_V3",
+   "base_rule": "S_P07",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The fruit on the tree is ripe. Nobody picks it, and a week passes. What does the tree look like at the end of the week?",
+   "options": {
+    "game": "The fruit is still hanging on the tree.",
+    "real": "The fruit has fallen to the ground and started to rot.",
+    "neither": "The tree has lost all its leaves."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P07_V3_before.png"
+  },
+  {
+   "id": "S_P07_V4",
+   "base_rule": "S_P07",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The fruit on the tree is ripe. Nobody picks it, and a week passes. What does the tree look like at the end of the week?",
+   "options": {
+    "game": "The fruit is still hanging on the tree.",
+    "real": "The fruit has fallen to the ground and started to rot.",
+    "neither": "The tree has lost all its leaves."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P07_V4_before.png"
+  },
+  {
+   "id": "S_P08_V1",
+   "base_rule": "S_P08",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "Nobody waters the young plants in the tilled soil, and a whole week of hot, sunny weather passes. What do the plants look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They have withered and died.",
+    "neither": "They are covered in flowers."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P08_V1_before.png"
+  },
+  {
+   "id": "S_P08_V2",
+   "base_rule": "S_P08",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "Nobody waters the young plants in the tilled soil, and a whole week of hot, sunny weather passes. What do the plants look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They have withered and died.",
+    "neither": "They are covered in flowers."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P08_V2_before.png"
+  },
+  {
+   "id": "S_P08_V3",
+   "base_rule": "S_P08",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "Nobody waters the young plants in the tilled soil, and a whole week of hot, sunny weather passes. What do the plants look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They have withered and died.",
+    "neither": "They are covered in flowers."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P08_V3_before.png"
+  },
+  {
+   "id": "S_P08_V4",
+   "base_rule": "S_P08",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "Nobody waters the young plants in the tilled soil, and a whole week of hot, sunny weather passes. What do the plants look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They have withered and died.",
+    "neither": "They are covered in flowers."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P08_V4_before.png"
+  },
+  {
+   "id": "S_P09_V1",
+   "base_rule": "S_P09",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "It rains every day for a week, and nobody tends the seedlings in the tilled soil. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have been washed away."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P09_V1_before.png"
+  },
+  {
+   "id": "S_P09_V2",
+   "base_rule": "S_P09",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "It rains every day for a week, and nobody tends the seedlings in the tilled soil. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have been washed away."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P09_V2_before.png"
+  },
+  {
+   "id": "S_P09_V3",
+   "base_rule": "S_P09",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "It rains every day for a week, and nobody tends the seedlings in the tilled soil. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have been washed away."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P09_V3_before.png"
+  },
+  {
+   "id": "S_P09_V4",
+   "base_rule": "S_P09",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "It rains every day for a week, and nobody tends the seedlings in the tilled soil. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have been washed away."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P09_V4_before.png"
+  },
+  {
+   "id": "S_P10_V1",
+   "base_rule": "S_P10",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The weeds in the image are left alone for two weeks of warm, rainy spring weather. What do they look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They have grown taller and spread.",
+    "neither": "They have turned into flowers."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P10_V1_before.png"
+  },
+  {
+   "id": "S_P10_V2",
+   "base_rule": "S_P10",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The weeds in the image are left alone for two weeks of warm, rainy spring weather. What do they look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They have grown taller and spread.",
+    "neither": "They have turned into flowers."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P10_V2_before.png"
+  },
+  {
+   "id": "S_P10_V3",
+   "base_rule": "S_P10",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The weeds in the image are left alone for two weeks of warm, rainy spring weather. What do they look like at the end?",
+   "options": {
+    "game": "They look exactly the same as now.",
+    "real": "They have grown taller and spread.",
+    "neither": "They have turned into flowers."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P10_V3_before.png"
+  },
+  {
+   "id": "S_P11_V1",
+   "base_rule": "S_P11",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The wild plant growing in the grass is left alone for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "It has wilted and withered.",
+    "neither": "It has turned into a bush."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P11_V1_before.png"
+  },
+  {
+   "id": "S_P11_V2",
+   "base_rule": "S_P11",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The wild plant growing in the grass is left alone for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "It has wilted and withered.",
+    "neither": "It has turned into a bush."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P11_V2_before.png"
+  },
+  {
+   "id": "S_P11_V3",
+   "base_rule": "S_P11",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The wild plant growing in the grass is left alone for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "It has wilted and withered.",
+    "neither": "It has turned into a bush."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P11_V3_before.png"
+  },
+  {
+   "id": "S_P11_V4",
+   "base_rule": "S_P11",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The wild plant growing in the grass is left alone for a week. What does it look like at the end of the week?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "It has wilted and withered.",
+    "neither": "It has turned into a bush."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P11_V4_before.png"
+  },
+  {
+   "id": "S_P13_V1",
+   "base_rule": "S_P13",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The tree stump in the image is left alone for a whole spring. What does it look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "New shoots have sprouted from it.",
+    "neither": "It has grown back into a full tree."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_P13_V1_before.png"
+  },
+  {
+   "id": "S_P13_V2",
+   "base_rule": "S_P13",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The tree stump in the image is left alone for a whole spring. What does it look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "New shoots have sprouted from it.",
+    "neither": "It has grown back into a full tree."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P13_V2_before.png"
+  },
+  {
+   "id": "S_P13_V3",
+   "base_rule": "S_P13",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The tree stump in the image is left alone for a whole spring. What does it look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "New shoots have sprouted from it.",
+    "neither": "It has grown back into a full tree."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P13_V3_before.png"
+  },
+  {
+   "id": "S_P13_V4",
+   "base_rule": "S_P13",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The tree stump in the image is left alone for a whole spring. What does it look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "New shoots have sprouted from it.",
+    "neither": "It has grown back into a full tree."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P13_V4_before.png"
+  },
+  {
+   "id": "S_P14_V1",
+   "base_rule": "S_P14",
+   "variant": 1,
+   "category": "passive_conflict",
+   "question_en": "The wooden chest stands outdoors and it rains every day for two weeks. What does the chest look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "The wood has darkened and started to swell and warp.",
+    "neither": "It has sunk into the ground."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P14_V1_before.png"
+  },
+  {
+   "id": "S_P14_V2",
+   "base_rule": "S_P14",
+   "variant": 2,
+   "category": "passive_conflict",
+   "question_en": "The wooden chest stands outdoors and it rains every day for two weeks. What does the chest look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "The wood has darkened and started to swell and warp.",
+    "neither": "It has sunk into the ground."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P14_V2_before.png"
+  },
+  {
+   "id": "S_P14_V3",
+   "base_rule": "S_P14",
+   "variant": 3,
+   "category": "passive_conflict",
+   "question_en": "The wooden chest stands outdoors and it rains every day for two weeks. What does the chest look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "The wood has darkened and started to swell and warp.",
+    "neither": "It has sunk into the ground."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_P14_V3_before.png"
+  },
+  {
+   "id": "S_P14_V4",
+   "base_rule": "S_P14",
+   "variant": 4,
+   "category": "passive_conflict",
+   "question_en": "The wooden chest stands outdoors and it rains every day for two weeks. What does the chest look like at the end?",
+   "options": {
+    "game": "It looks exactly the same as now.",
+    "real": "The wood has darkened and started to swell and warp.",
+    "neither": "It has sunk into the ground."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_P14_V4_before.png"
+  },
+  {
+   "id": "S_A01_V1",
+   "base_rule": "S_A01",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What is left where the tree stood right afterwards?",
+   "options": {
+    "game": "A stump, with small pieces of wood scattered around it.",
+    "real": "A stump, with the whole trunk lying on the ground beside it.",
+    "neither": "Nothing at all; the ground is bare."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A01_V1_before.png"
+  },
+  {
+   "id": "S_A01_V2",
+   "base_rule": "S_A01",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What is left where the tree stood right afterwards?",
+   "options": {
+    "game": "A stump, with small pieces of wood scattered around it.",
+    "real": "A stump, with the whole trunk lying on the ground beside it.",
+    "neither": "Nothing at all; the ground is bare."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A01_V2_before.png"
+  },
+  {
+   "id": "S_A01_V3",
+   "base_rule": "S_A01",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What is left where the tree stood right afterwards?",
+   "options": {
+    "game": "A stump, with small pieces of wood scattered around it.",
+    "real": "A stump, with the whole trunk lying on the ground beside it.",
+    "neither": "Nothing at all; the ground is bare."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A01_V3_before.png"
+  },
+  {
+   "id": "S_A01_V4",
+   "base_rule": "S_A01",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What is left where the tree stood right afterwards?",
+   "options": {
+    "game": "A stump, with small pieces of wood scattered around it.",
+    "real": "A stump, with the whole trunk lying on the ground beside it.",
+    "neither": "Nothing at all; the ground is bare."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A01_V4_before.png"
+  },
+  {
+   "id": "S_A02_V1",
+   "base_rule": "S_A02",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the plants growing right next to the tree?",
+   "options": {
+    "game": "They are untouched.",
+    "real": "They are crushed by the falling tree.",
+    "neither": "They are pulled out of the ground and replanted elsewhere."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A02_V1_before.png"
+  },
+  {
+   "id": "S_A02_V2",
+   "base_rule": "S_A02",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the plants growing right next to the tree?",
+   "options": {
+    "game": "They are untouched.",
+    "real": "They are crushed by the falling tree.",
+    "neither": "They are pulled out of the ground and replanted elsewhere."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A02_V2_before.png"
+  },
+  {
+   "id": "S_A02_V3",
+   "base_rule": "S_A02",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the plants growing right next to the tree?",
+   "options": {
+    "game": "They are untouched.",
+    "real": "They are crushed by the falling tree.",
+    "neither": "They are pulled out of the ground and replanted elsewhere."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A02_V3_before.png"
+  },
+  {
+   "id": "S_A02_V4",
+   "base_rule": "S_A02",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the plants growing right next to the tree?",
+   "options": {
+    "game": "They are untouched.",
+    "real": "They are crushed by the falling tree.",
+    "neither": "They are pulled out of the ground and replanted elsewhere."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A02_V4_before.png"
+  },
+  {
+   "id": "S_A03_V1",
+   "base_rule": "S_A03",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone hits the rock once with a pickaxe. What happens to the rock right afterwards?",
+   "options": {
+    "game": "It disappears, and a few loose stones pop out where it was.",
+    "real": "It cracks, but stays in place.",
+    "neither": "It rolls away across the field."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A03_V1_before.png"
+  },
+  {
+   "id": "S_A03_V2",
+   "base_rule": "S_A03",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone hits the rock once with a pickaxe. What happens to the rock right afterwards?",
+   "options": {
+    "game": "It disappears, and a few loose stones pop out where it was.",
+    "real": "It cracks, but stays in place.",
+    "neither": "It rolls away across the field."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A03_V2_before.png"
+  },
+  {
+   "id": "S_A03_V3",
+   "base_rule": "S_A03",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone hits the rock once with a pickaxe. What happens to the rock right afterwards?",
+   "options": {
+    "game": "It disappears, and a few loose stones pop out where it was.",
+    "real": "It cracks, but stays in place.",
+    "neither": "It rolls away across the field."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A03_V3_before.png"
+  },
+  {
+   "id": "S_A03_V4",
+   "base_rule": "S_A03",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone hits the rock once with a pickaxe. What happens to the rock right afterwards?",
+   "options": {
+    "game": "It disappears, and a few loose stones pop out where it was.",
+    "real": "It cracks, but stays in place.",
+    "neither": "It rolls away across the field."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A03_V4_before.png"
+  },
+  {
+   "id": "S_A04_V1",
+   "base_rule": "S_A04",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fallen branch once with an axe. What happens to the branch right afterwards?",
+   "options": {
+    "game": "It disappears, and a few small pieces of wood pop out where it was.",
+    "real": "It is split, and the two halves stay on the ground.",
+    "neither": "It bounces back up into a tree."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A04_V1_before.png"
+  },
+  {
+   "id": "S_A04_V2",
+   "base_rule": "S_A04",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fallen branch once with an axe. What happens to the branch right afterwards?",
+   "options": {
+    "game": "It disappears, and a few small pieces of wood pop out where it was.",
+    "real": "It is split, and the two halves stay on the ground.",
+    "neither": "It bounces back up into a tree."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A04_V2_before.png"
+  },
+  {
+   "id": "S_A04_V3",
+   "base_rule": "S_A04",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fallen branch once with an axe. What happens to the branch right afterwards?",
+   "options": {
+    "game": "It disappears, and a few small pieces of wood pop out where it was.",
+    "real": "It is split, and the two halves stay on the ground.",
+    "neither": "It bounces back up into a tree."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A04_V3_before.png"
+  },
+  {
+   "id": "S_A04_V4",
+   "base_rule": "S_A04",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fallen branch once with an axe. What happens to the branch right afterwards?",
+   "options": {
+    "game": "It disappears, and a few small pieces of wood pop out where it was.",
+    "real": "It is split, and the two halves stay on the ground.",
+    "neither": "It bounces back up into a tree."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A04_V4_before.png"
+  },
+  {
+   "id": "S_A05_V1",
+   "base_rule": "S_A05",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone waters the seedlings in the tilled soil every morning for one week of sunny weather. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A05_V1_before.png"
+  },
+  {
+   "id": "S_A05_V2",
+   "base_rule": "S_A05",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone waters the seedlings in the tilled soil every morning for one week of sunny weather. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A05_V2_before.png"
+  },
+  {
+   "id": "S_A05_V3",
+   "base_rule": "S_A05",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone waters the seedlings in the tilled soil every morning for one week of sunny weather. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A05_V3_before.png"
+  },
+  {
+   "id": "S_A05_V4",
+   "base_rule": "S_A05",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone waters the seedlings in the tilled soil every morning for one week of sunny weather. What do they look like at the end of the week?",
+   "options": {
+    "game": "They are fully grown and ready to harvest.",
+    "real": "They are a little taller, but still young plants.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A05_V4_before.png"
+  },
+  {
+   "id": "S_A06_V1",
+   "base_rule": "S_A06",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone hits the wooden chest once with a pickaxe. What happens to the chest right afterwards?",
+   "options": {
+    "game": "It pops off the ground in one piece, completely intact.",
+    "real": "Its wood splinters and cracks where it was hit.",
+    "neither": "It sinks into the ground."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A06_V1_before.png"
+  },
+  {
+   "id": "S_A06_V2",
+   "base_rule": "S_A06",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone hits the wooden chest once with a pickaxe. What happens to the chest right afterwards?",
+   "options": {
+    "game": "It pops off the ground in one piece, completely intact.",
+    "real": "Its wood splinters and cracks where it was hit.",
+    "neither": "It sinks into the ground."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A06_V2_before.png"
+  },
+  {
+   "id": "S_A06_V3",
+   "base_rule": "S_A06",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone hits the wooden chest once with a pickaxe. What happens to the chest right afterwards?",
+   "options": {
+    "game": "It pops off the ground in one piece, completely intact.",
+    "real": "Its wood splinters and cracks where it was hit.",
+    "neither": "It sinks into the ground."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A06_V3_before.png"
+  },
+  {
+   "id": "S_A06_V4",
+   "base_rule": "S_A06",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone hits the wooden chest once with a pickaxe. What happens to the chest right afterwards?",
+   "options": {
+    "game": "It pops off the ground in one piece, completely intact.",
+    "real": "Its wood splinters and cracks where it was hit.",
+    "neither": "It sinks into the ground."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A06_V4_before.png"
+  },
+  {
+   "id": "S_A07_V1",
+   "base_rule": "S_A07",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone hits the lit torch once with a pickaxe. What happens to the torch right afterwards?",
+   "options": {
+    "game": "It pops out of the ground whole, and the flame is gone.",
+    "real": "It snaps in two, and the burning end falls to the ground.",
+    "neither": "It flies up into the sky."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A07_V1_before.png"
+  },
+  {
+   "id": "S_A07_V2",
+   "base_rule": "S_A07",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone hits the lit torch once with a pickaxe. What happens to the torch right afterwards?",
+   "options": {
+    "game": "It pops out of the ground whole, and the flame is gone.",
+    "real": "It snaps in two, and the burning end falls to the ground.",
+    "neither": "It flies up into the sky."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A07_V2_before.png"
+  },
+  {
+   "id": "S_A07_V3",
+   "base_rule": "S_A07",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone hits the lit torch once with a pickaxe. What happens to the torch right afterwards?",
+   "options": {
+    "game": "It pops out of the ground whole, and the flame is gone.",
+    "real": "It snaps in two, and the burning end falls to the ground.",
+    "neither": "It flies up into the sky."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A07_V3_before.png"
+  },
+  {
+   "id": "S_A07_V4",
+   "base_rule": "S_A07",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone hits the lit torch once with a pickaxe. What happens to the torch right afterwards?",
+   "options": {
+    "game": "It pops out of the ground whole, and the flame is gone.",
+    "real": "It snaps in two, and the burning end falls to the ground.",
+    "neither": "It flies up into the sky."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A07_V4_before.png"
+  },
+  {
+   "id": "S_A08_V1",
+   "base_rule": "S_A08",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fence post once with an axe. What happens to the fence post right afterwards?",
+   "options": {
+    "game": "It pops out of the ground in one piece, completely intact.",
+    "real": "It gets a deep cut, but stays standing.",
+    "neither": "It turns to stone."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A08_V1_before.png"
+  },
+  {
+   "id": "S_A08_V2",
+   "base_rule": "S_A08",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fence post once with an axe. What happens to the fence post right afterwards?",
+   "options": {
+    "game": "It pops out of the ground in one piece, completely intact.",
+    "real": "It gets a deep cut, but stays standing.",
+    "neither": "It turns to stone."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A08_V2_before.png"
+  },
+  {
+   "id": "S_A08_V3",
+   "base_rule": "S_A08",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fence post once with an axe. What happens to the fence post right afterwards?",
+   "options": {
+    "game": "It pops out of the ground in one piece, completely intact.",
+    "real": "It gets a deep cut, but stays standing.",
+    "neither": "It turns to stone."
+   },
+   "options_ordered": [
+    "neither",
+    "real",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A08_V3_before.png"
+  },
+  {
+   "id": "S_A08_V4",
+   "base_rule": "S_A08",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone hits the fence post once with an axe. What happens to the fence post right afterwards?",
+   "options": {
+    "game": "It pops out of the ground in one piece, completely intact.",
+    "real": "It gets a deep cut, but stays standing.",
+    "neither": "It turns to stone."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A08_V4_before.png"
+  },
+  {
+   "id": "S_A09_V1",
+   "base_rule": "S_A09",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone hits the burning campfire once with a pickaxe. What happens right afterwards?",
+   "options": {
+    "game": "The whole campfire pops off the ground in one piece, and the fire is gone.",
+    "real": "The burning logs are knocked apart and scattered.",
+    "neither": "The fire grows twice as large."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A09_V1_before.png"
+  },
+  {
+   "id": "S_A09_V2",
+   "base_rule": "S_A09",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone hits the burning campfire once with a pickaxe. What happens right afterwards?",
+   "options": {
+    "game": "The whole campfire pops off the ground in one piece, and the fire is gone.",
+    "real": "The burning logs are knocked apart and scattered.",
+    "neither": "The fire grows twice as large."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A09_V2_before.png"
+  },
+  {
+   "id": "S_A09_V3",
+   "base_rule": "S_A09",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone hits the burning campfire once with a pickaxe. What happens right afterwards?",
+   "options": {
+    "game": "The whole campfire pops off the ground in one piece, and the fire is gone.",
+    "real": "The burning logs are knocked apart and scattered.",
+    "neither": "The fire grows twice as large."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A09_V3_before.png"
+  },
+  {
+   "id": "S_A09_V4",
+   "base_rule": "S_A09",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone hits the burning campfire once with a pickaxe. What happens right afterwards?",
+   "options": {
+    "game": "The whole campfire pops off the ground in one piece, and the fire is gone.",
+    "real": "The burning logs are knocked apart and scattered.",
+    "neither": "The fire grows twice as large."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A09_V4_before.png"
+  },
+  {
+   "id": "S_A10_V1",
+   "base_rule": "S_A10",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone cuts the weeds with a scythe. What is left where the weeds were right afterwards?",
+   "options": {
+    "game": "Nothing but a few loose fibers on the bare ground.",
+    "real": "Short cut stems still rooted in the ground.",
+    "neither": "Taller weeds than before."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A10_V1_before.png"
+  },
+  {
+   "id": "S_A10_V2",
+   "base_rule": "S_A10",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone cuts the weeds with a scythe. What is left where the weeds were right afterwards?",
+   "options": {
+    "game": "Nothing but a few loose fibers on the bare ground.",
+    "real": "Short cut stems still rooted in the ground.",
+    "neither": "Taller weeds than before."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A10_V2_before.png"
+  },
+  {
+   "id": "S_A10_V3",
+   "base_rule": "S_A10",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone cuts the weeds with a scythe. What is left where the weeds were right afterwards?",
+   "options": {
+    "game": "Nothing but a few loose fibers on the bare ground.",
+    "real": "Short cut stems still rooted in the ground.",
+    "neither": "Taller weeds than before."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A10_V3_before.png"
+  },
+  {
+   "id": "S_A10_V4",
+   "base_rule": "S_A10",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone cuts the weeds with a scythe. What is left where the weeds were right afterwards?",
+   "options": {
+    "game": "Nothing but a few loose fibers on the bare ground.",
+    "real": "Short cut stems still rooted in the ground.",
+    "neither": "Taller weeds than before."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A10_V4_before.png"
+  },
+  {
+   "id": "S_A11_V1",
+   "base_rule": "S_A11",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone chops the small sapling once with an axe. What happens to it right afterwards?",
+   "options": {
+    "game": "It disappears completely, leaving nothing on the ground.",
+    "real": "It is cut off, and the cut stem lies on the ground.",
+    "neither": "It grows into a full tree."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "real"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A11_V1_before.png"
+  },
+  {
+   "id": "S_A11_V2",
+   "base_rule": "S_A11",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone chops the small sapling once with an axe. What happens to it right afterwards?",
+   "options": {
+    "game": "It disappears completely, leaving nothing on the ground.",
+    "real": "It is cut off, and the cut stem lies on the ground.",
+    "neither": "It grows into a full tree."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A11_V2_before.png"
+  },
+  {
+   "id": "S_A11_V3",
+   "base_rule": "S_A11",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone chops the small sapling once with an axe. What happens to it right afterwards?",
+   "options": {
+    "game": "It disappears completely, leaving nothing on the ground.",
+    "real": "It is cut off, and the cut stem lies on the ground.",
+    "neither": "It grows into a full tree."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A11_V3_before.png"
+  },
+  {
+   "id": "S_A11_V4",
+   "base_rule": "S_A11",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone chops the small sapling once with an axe. What happens to it right afterwards?",
+   "options": {
+    "game": "It disappears completely, leaving nothing on the ground.",
+    "real": "It is cut off, and the cut stem lies on the ground.",
+    "neither": "It grows into a full tree."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A11_V4_before.png"
+  },
+  {
+   "id": "S_A12_V1",
+   "base_rule": "S_A12",
+   "variant": 1,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the wooden chest standing right next to it?",
+   "options": {
+    "game": "It is untouched.",
+    "real": "It is smashed by the falling tree.",
+    "neither": "It is thrown over the fence."
+   },
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_A12_V1_before.png"
+  },
+  {
+   "id": "S_A12_V2",
+   "base_rule": "S_A12",
+   "variant": 2,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the wooden chest standing right next to it?",
+   "options": {
+    "game": "It is untouched.",
+    "real": "It is smashed by the falling tree.",
+    "neither": "It is thrown over the fence."
+   },
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_A12_V2_before.png"
+  },
+  {
+   "id": "S_A12_V3",
+   "base_rule": "S_A12",
+   "variant": 3,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the wooden chest standing right next to it?",
+   "options": {
+    "game": "It is untouched.",
+    "real": "It is smashed by the falling tree.",
+    "neither": "It is thrown over the fence."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A12_V3_before.png"
+  },
+  {
+   "id": "S_A12_V4",
+   "base_rule": "S_A12",
+   "variant": 4,
+   "category": "action_conflict",
+   "question_en": "Someone chops the tree with an axe until it falls. What happens to the wooden chest standing right next to it?",
+   "options": {
+    "game": "It is untouched.",
+    "real": "It is smashed by the falling tree.",
+    "neither": "It is thrown over the fence."
+   },
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_A12_V4_before.png"
+  },
+  {
+   "id": "S_C01_V1",
+   "base_rule": "S_C01",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "The tilled soil was watered this morning. A hot, sunny day passes and nobody waters it again. What does the soil look like the next morning?",
+   "options": {
+    "game": "It has dried out and turned lighter.",
+    "over_departure": "It looks exactly as wet as now.",
+    "neither": "It has turned into grass."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C01_V1_before.png"
+  },
+  {
+   "id": "S_C01_V2",
+   "base_rule": "S_C01",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "The tilled soil was watered this morning. A hot, sunny day passes and nobody waters it again. What does the soil look like the next morning?",
+   "options": {
+    "game": "It has dried out and turned lighter.",
+    "over_departure": "It looks exactly as wet as now.",
+    "neither": "It has turned into grass."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C01_V2_before.png"
+  },
+  {
+   "id": "S_C01_V3",
+   "base_rule": "S_C01",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "The tilled soil was watered this morning. A hot, sunny day passes and nobody waters it again. What does the soil look like the next morning?",
+   "options": {
+    "game": "It has dried out and turned lighter.",
+    "over_departure": "It looks exactly as wet as now.",
+    "neither": "It has turned into grass."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C01_V3_before.png"
+  },
+  {
+   "id": "S_C01_V4",
+   "base_rule": "S_C01",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "The tilled soil was watered this morning. A hot, sunny day passes and nobody waters it again. What does the soil look like the next morning?",
+   "options": {
+    "game": "It has dried out and turned lighter.",
+    "over_departure": "It looks exactly as wet as now.",
+    "neither": "It has turned into grass."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C01_V4_before.png"
+  },
+  {
+   "id": "S_C02_V1",
+   "base_rule": "S_C02",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "The tilled soil is dry. It rains all night. What does the soil look like the next morning?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a puddle of mud that covers the field."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C02_V1_before.png"
+  },
+  {
+   "id": "S_C02_V2",
+   "base_rule": "S_C02",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "The tilled soil is dry. It rains all night. What does the soil look like the next morning?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a puddle of mud that covers the field."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C02_V2_before.png"
+  },
+  {
+   "id": "S_C02_V3",
+   "base_rule": "S_C02",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "The tilled soil is dry. It rains all night. What does the soil look like the next morning?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a puddle of mud that covers the field."
+   },
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C02_V3_before.png"
+  },
+  {
+   "id": "S_C02_V4",
+   "base_rule": "S_C02",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "The tilled soil is dry. It rains all night. What does the soil look like the next morning?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a puddle of mud that covers the field."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C02_V4_before.png"
+  },
+  {
+   "id": "S_C04_V1",
+   "base_rule": "S_C04",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone chops the tree with an axe many times. What happens to the tree?",
+   "options": {
+    "game": "It is cut down.",
+    "over_departure": "It stays standing, without a scratch.",
+    "neither": "It turns into stone."
+   },
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C04_V1_before.png"
+  },
+  {
+   "id": "S_C04_V2",
+   "base_rule": "S_C04",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone chops the tree with an axe many times. What happens to the tree?",
+   "options": {
+    "game": "It is cut down.",
+    "over_departure": "It stays standing, without a scratch.",
+    "neither": "It turns into stone."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C04_V2_before.png"
+  },
+  {
+   "id": "S_C04_V3",
+   "base_rule": "S_C04",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone chops the tree with an axe many times. What happens to the tree?",
+   "options": {
+    "game": "It is cut down.",
+    "over_departure": "It stays standing, without a scratch.",
+    "neither": "It turns into stone."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C04_V3_before.png"
+  },
+  {
+   "id": "S_C04_V4",
+   "base_rule": "S_C04",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone chops the tree with an axe many times. What happens to the tree?",
+   "options": {
+    "game": "It is cut down.",
+    "over_departure": "It stays standing, without a scratch.",
+    "neither": "It turns into stone."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C04_V4_before.png"
+  },
+  {
+   "id": "S_C05_V1",
+   "base_rule": "S_C05",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone waters the young plants in the tilled soil every morning for three sunny days. What do they look like at the end?",
+   "options": {
+    "game": "They have grown bigger.",
+    "over_departure": "They look exactly the same as now.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C05_V1_before.png"
+  },
+  {
+   "id": "S_C05_V2",
+   "base_rule": "S_C05",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone waters the young plants in the tilled soil every morning for three sunny days. What do they look like at the end?",
+   "options": {
+    "game": "They have grown bigger.",
+    "over_departure": "They look exactly the same as now.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C05_V2_before.png"
+  },
+  {
+   "id": "S_C05_V3",
+   "base_rule": "S_C05",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone waters the young plants in the tilled soil every morning for three sunny days. What do they look like at the end?",
+   "options": {
+    "game": "They have grown bigger.",
+    "over_departure": "They look exactly the same as now.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C05_V3_before.png"
+  },
+  {
+   "id": "S_C05_V4",
+   "base_rule": "S_C05",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone waters the young plants in the tilled soil every morning for three sunny days. What do they look like at the end?",
+   "options": {
+    "game": "They have grown bigger.",
+    "over_departure": "They look exactly the same as now.",
+    "neither": "They have dried out and died."
+   },
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C05_V4_before.png"
+  },
+  {
+   "id": "S_C06_V1",
+   "base_rule": "S_C06",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone pulls up one of the ripe vegetables by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "Bare tilled soil.",
+    "over_departure": "The same ripe vegetable, still growing there.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C06_V1_before.png"
+  },
+  {
+   "id": "S_C06_V2",
+   "base_rule": "S_C06",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone pulls up one of the ripe vegetables by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "Bare tilled soil.",
+    "over_departure": "The same ripe vegetable, still growing there.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C06_V2_before.png"
+  },
+  {
+   "id": "S_C06_V3",
+   "base_rule": "S_C06",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone pulls up one of the ripe vegetables by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "Bare tilled soil.",
+    "over_departure": "The same ripe vegetable, still growing there.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C06_V3_before.png"
+  },
+  {
+   "id": "S_C06_V4",
+   "base_rule": "S_C06",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone pulls up one of the ripe vegetables by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "Bare tilled soil.",
+    "over_departure": "The same ripe vegetable, still growing there.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C06_V4_before.png"
+  },
+  {
+   "id": "S_C07_V1",
+   "base_rule": "S_C07",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Seeds were just planted in the tilled soil. Nobody waters them, and three hot, sunny days pass. What does the soil look like at the end?",
+   "options": {
+    "game": "Still bare, with no sprouts.",
+    "over_departure": "Covered in fully grown plants.",
+    "neither": "Covered in snow."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C07_V1_before.png"
+  },
+  {
+   "id": "S_C07_V2",
+   "base_rule": "S_C07",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Seeds were just planted in the tilled soil. Nobody waters them, and three hot, sunny days pass. What does the soil look like at the end?",
+   "options": {
+    "game": "Still bare, with no sprouts.",
+    "over_departure": "Covered in fully grown plants.",
+    "neither": "Covered in snow."
+   },
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C07_V2_before.png"
+  },
+  {
+   "id": "S_C07_V3",
+   "base_rule": "S_C07",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Seeds were just planted in the tilled soil. Nobody waters them, and three hot, sunny days pass. What does the soil look like at the end?",
+   "options": {
+    "game": "Still bare, with no sprouts.",
+    "over_departure": "Covered in fully grown plants.",
+    "neither": "Covered in snow."
+   },
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C07_V3_before.png"
+  },
+  {
+   "id": "S_C07_V4",
+   "base_rule": "S_C07",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Seeds were just planted in the tilled soil. Nobody waters them, and three hot, sunny days pass. What does the soil look like at the end?",
+   "options": {
+    "game": "Still bare, with no sprouts.",
+    "over_departure": "Covered in fully grown plants.",
+    "neither": "Covered in snow."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C07_V4_before.png"
+  },
+  {
+   "id": "S_C08_V1",
+   "base_rule": "S_C08",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone pours water from a watering can onto the dry tilled soil. What does the soil look like right afterwards?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a pond."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C08_V1_before.png"
+  },
+  {
+   "id": "S_C08_V2",
+   "base_rule": "S_C08",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone pours water from a watering can onto the dry tilled soil. What does the soil look like right afterwards?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a pond."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C08_V2_before.png"
+  },
+  {
+   "id": "S_C08_V3",
+   "base_rule": "S_C08",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone pours water from a watering can onto the dry tilled soil. What does the soil look like right afterwards?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a pond."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C08_V3_before.png"
+  },
+  {
+   "id": "S_C08_V4",
+   "base_rule": "S_C08",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone pours water from a watering can onto the dry tilled soil. What does the soil look like right afterwards?",
+   "options": {
+    "game": "It is dark and wet.",
+    "over_departure": "It looks exactly as dry as now.",
+    "neither": "It has turned into a pond."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C08_V4_before.png"
+  },
+  {
+   "id": "S_C09_V1",
+   "base_rule": "S_C09",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone picks the ripe strawberries from one of the plants by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "The strawberry plant, still growing there.",
+    "over_departure": "Bare tilled soil.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C09_V1_before.png"
+  },
+  {
+   "id": "S_C09_V2",
+   "base_rule": "S_C09",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone picks the ripe strawberries from one of the plants by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "The strawberry plant, still growing there.",
+    "over_departure": "Bare tilled soil.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C09_V2_before.png"
+  },
+  {
+   "id": "S_C09_V3",
+   "base_rule": "S_C09",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone picks the ripe strawberries from one of the plants by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "The strawberry plant, still growing there.",
+    "over_departure": "Bare tilled soil.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C09_V3_before.png"
+  },
+  {
+   "id": "S_C09_V4",
+   "base_rule": "S_C09",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone picks the ripe strawberries from one of the plants by hand. What is left in that spot right afterwards?",
+   "options": {
+    "game": "The strawberry plant, still growing there.",
+    "over_departure": "Bare tilled soil.",
+    "neither": "A small tree."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C09_V4_before.png"
+  },
+  {
+   "id": "S_C10_V1",
+   "base_rule": "S_C10",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone hits the rock with a pickaxe again and again. What happens to the rock?",
+   "options": {
+    "game": "It breaks apart.",
+    "over_departure": "It stays in place, without a scratch.",
+    "neither": "It melts."
+   },
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C10_V1_before.png"
+  },
+  {
+   "id": "S_C10_V2",
+   "base_rule": "S_C10",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone hits the rock with a pickaxe again and again. What happens to the rock?",
+   "options": {
+    "game": "It breaks apart.",
+    "over_departure": "It stays in place, without a scratch.",
+    "neither": "It melts."
+   },
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C10_V2_before.png"
+  },
+  {
+   "id": "S_C10_V3",
+   "base_rule": "S_C10",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone hits the rock with a pickaxe again and again. What happens to the rock?",
+   "options": {
+    "game": "It breaks apart.",
+    "over_departure": "It stays in place, without a scratch.",
+    "neither": "It melts."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C10_V3_before.png"
+  },
+  {
+   "id": "S_C10_V4",
+   "base_rule": "S_C10",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone hits the rock with a pickaxe again and again. What happens to the rock?",
+   "options": {
+    "game": "It breaks apart.",
+    "over_departure": "It stays in place, without a scratch.",
+    "neither": "It melts."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C10_V4_before.png"
+  },
+  {
+   "id": "S_C11_V1",
+   "base_rule": "S_C11",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone cuts the weeds with a scythe. What happens to the weeds?",
+   "options": {
+    "game": "They are cut down.",
+    "over_departure": "They stay standing, untouched.",
+    "neither": "They burst into flames."
+   },
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C11_V1_before.png"
+  },
+  {
+   "id": "S_C11_V2",
+   "base_rule": "S_C11",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone cuts the weeds with a scythe. What happens to the weeds?",
+   "options": {
+    "game": "They are cut down.",
+    "over_departure": "They stay standing, untouched.",
+    "neither": "They burst into flames."
+   },
+   "options_ordered": [
+    "game",
+    "neither",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "A",
+   "image": "S_C11_V2_before.png"
+  },
+  {
+   "id": "S_C11_V3",
+   "base_rule": "S_C11",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone cuts the weeds with a scythe. What happens to the weeds?",
+   "options": {
+    "game": "They are cut down.",
+    "over_departure": "They stay standing, untouched.",
+    "neither": "They burst into flames."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C11_V3_before.png"
+  },
+  {
+   "id": "S_C11_V4",
+   "base_rule": "S_C11",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone cuts the weeds with a scythe. What happens to the weeds?",
+   "options": {
+    "game": "They are cut down.",
+    "over_departure": "They stay standing, untouched.",
+    "neither": "They burst into flames."
+   },
+   "options_ordered": [
+    "neither",
+    "game",
+    "over_departure"
+   ],
+   "correct_key": "game",
+   "correct_letter": "B",
+   "image": "S_C11_V4_before.png"
+  },
+  {
+   "id": "S_C12_V1",
+   "base_rule": "S_C12",
+   "variant": 1,
+   "category": "consistent",
+   "question_en": "Someone turns the grassy ground over with a hoe. What does that spot look like right afterwards?",
+   "options": {
+    "game": "Freshly tilled, bare soil.",
+    "over_departure": "The same untouched ground as before.",
+    "neither": "A deep hole full of water."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C12_V1_before.png"
+  },
+  {
+   "id": "S_C12_V2",
+   "base_rule": "S_C12",
+   "variant": 2,
+   "category": "consistent",
+   "question_en": "Someone turns the grassy ground over with a hoe. What does that spot look like right afterwards?",
+   "options": {
+    "game": "Freshly tilled, bare soil.",
+    "over_departure": "The same untouched ground as before.",
+    "neither": "A deep hole full of water."
+   },
+   "options_ordered": [
+    "neither",
+    "over_departure",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C12_V2_before.png"
+  },
+  {
+   "id": "S_C12_V3",
+   "base_rule": "S_C12",
+   "variant": 3,
+   "category": "consistent",
+   "question_en": "Someone turns the grassy ground over with a hoe. What does that spot look like right afterwards?",
+   "options": {
+    "game": "Freshly tilled, bare soil.",
+    "over_departure": "The same untouched ground as before.",
+    "neither": "A deep hole full of water."
+   },
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C12_V3_before.png"
+  },
+  {
+   "id": "S_C12_V4",
+   "base_rule": "S_C12",
+   "variant": 4,
+   "category": "consistent",
+   "question_en": "Someone turns the grassy ground over with a hoe. What does that spot look like right afterwards?",
+   "options": {
+    "game": "Freshly tilled, bare soil.",
+    "over_departure": "The same untouched ground as before.",
+    "neither": "A deep hole full of water."
+   },
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "correct_key": "game",
+   "correct_letter": "C",
+   "image": "S_C12_V4_before.png"
+  }
+ ]
+}

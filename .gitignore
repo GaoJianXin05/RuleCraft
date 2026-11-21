@@ -1,0 +1,23 @@
+# keys
+Key.env
+.env
+# call cache, usage logs and model answers (the answers are in the Hugging Face dataset)
+rulecraft/results/
+rulecraft/terraria/results/
+rulecraft/stardew/results/
+rulecraft/openvlm/out/
+# images (in the dataset; render.js rebuilds the Minecraft ones)
+rulecraft/data/images/*
+!rulecraft/data/images/.gitkeep
+rulecraft/terraria/images_real/
+rulecraft/stardew/images/
+rulecraft/stardew/verify/
+human_study/answers/
+human_study/site/
+# tooling
+__pycache__/
+*.pyc
+node_modules/
+bin/
+obj/
+.DS_Store

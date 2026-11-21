@@ -1,0 +1,9448 @@
+{
+ "items": [
+  {
+   "id": "T_P01_V1",
+   "base_rule": "T_P01",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After some time passes, what happens to the brown block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的棕色方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down and rests on the ground.",
+    "neither": "It crumbles into dust and disappears."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 299,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 301,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 300,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P01_V2",
+   "base_rule": "T_P01",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After some time passes, what happens to the brown block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的棕色方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down and rests on the ground.",
+    "neither": "It crumbles into dust and disappears."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 299,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 301,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 300,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P01_V3",
+   "base_rule": "T_P01",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After some time passes, what happens to the brown block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的棕色方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down and rests on the ground.",
+    "neither": "It crumbles into dust and disappears."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 299,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 301,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 300,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P01_V4",
+   "base_rule": "T_P01",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After some time passes, what happens to the brown block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的棕色方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down and rests on the ground.",
+    "neither": "It crumbles into dust and disappears."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 299,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 301,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 300,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P02_V1",
+   "base_rule": "T_P02",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After some time passes, what happens to the grey block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的灰色石块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It floats upward toward the surface."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 309,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 311,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P02_V2",
+   "base_rule": "T_P02",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After some time passes, what happens to the grey block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的灰色石块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It floats upward toward the surface."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 309,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 311,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 0
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P02_V3",
+   "base_rule": "T_P02",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After some time passes, what happens to the grey block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的灰色石块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It floats upward toward the surface."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 309,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 311,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 38
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P02_V4",
+   "base_rule": "T_P02",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After some time passes, what happens to the grey block floating in mid-air?",
+   "question_zh": "过了一段时间后，空中悬浮的灰色石块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It floats upward toward the surface."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 309,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 311,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 45
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P03_V1",
+   "base_rule": "T_P03",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After some time passes, what happens to the reddish clay block hanging in the air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红棕色黏土方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly melts away."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 319,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 321,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P03_V2",
+   "base_rule": "T_P03",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After some time passes, what happens to the reddish clay block hanging in the air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红棕色黏土方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly melts away."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 319,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 321,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P03_V3",
+   "base_rule": "T_P03",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After some time passes, what happens to the reddish clay block hanging in the air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红棕色黏土方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly melts away."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 59
+     },
+     {
+      "x": 319,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 321,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P03_V4",
+   "base_rule": "T_P03",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After some time passes, what happens to the reddish clay block hanging in the air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红棕色黏土方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly melts away."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 319,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 321,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 320,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P04_V1",
+   "base_rule": "T_P04",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 54,
+   "tile_name": "glass",
+   "tile_color": "transparent",
+   "question_en": "After some time passes, what happens to the transparent glass block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的透明玻璃块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and shatters on the ground.",
+    "neither": "It slowly becomes cloudy and opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 120,
+      "type": 54
+     },
+     {
+      "x": 329,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 331,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 54
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P04_V2",
+   "base_rule": "T_P04",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After some time passes, what happens to the transparent glass block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的透明玻璃块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and shatters on the ground.",
+    "neither": "It slowly becomes cloudy and opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 120,
+      "type": 39
+     },
+     {
+      "x": 329,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 331,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P04_V3",
+   "base_rule": "T_P04",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After some time passes, what happens to the transparent glass block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的透明玻璃块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and shatters on the ground.",
+    "neither": "It slowly becomes cloudy and opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 120,
+      "type": 46
+     },
+     {
+      "x": 329,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 331,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P04_V4",
+   "base_rule": "T_P04",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After some time passes, what happens to the transparent glass block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的透明玻璃块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and shatters on the ground.",
+    "neither": "It slowly becomes cloudy and opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 120,
+      "type": 41
+     },
+     {
+      "x": 329,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 331,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P05_V1",
+   "base_rule": "T_P05",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After some time passes, what happens to the dark mud block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深色泥块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips downward.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 59
+     },
+     {
+      "x": 339,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 341,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P05_V2",
+   "base_rule": "T_P05",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After some time passes, what happens to the dark mud block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深色泥块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips downward.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 339,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 341,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P05_V3",
+   "base_rule": "T_P05",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After some time passes, what happens to the dark mud block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深色泥块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips downward.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 339,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 341,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P05_V4",
+   "base_rule": "T_P05",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After some time passes, what happens to the dark mud block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深色泥块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips downward.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 339,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 341,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 340,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P06_V1",
+   "base_rule": "T_P06",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After some time passes, what happens to the dark ash block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深灰色灰烬块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drifts downward like falling ash.",
+    "neither": "It ignites and burns away."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 349,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P06_V2",
+   "base_rule": "T_P06",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After some time passes, what happens to the dark ash block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深灰色灰烬块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drifts downward like falling ash.",
+    "neither": "It ignites and burns away."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 349,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P06_V3",
+   "base_rule": "T_P06",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After some time passes, what happens to the dark ash block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深灰色灰烬块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drifts downward like falling ash.",
+    "neither": "It ignites and burns away."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 120,
+      "type": 59
+     },
+     {
+      "x": 349,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P06_V4",
+   "base_rule": "T_P06",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After some time passes, what happens to the dark ash block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的深灰色灰烬块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drifts downward like falling ash.",
+    "neither": "It ignites and burns away."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 349,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 350,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P07_V1",
+   "base_rule": "T_P07",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 56,
+   "tile_name": "obsidian",
+   "tile_color": "shiny black",
+   "question_en": "After some time passes, what happens to the shiny black block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的光滑黑色方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground below."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 56
+     },
+     {
+      "x": 359,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 56
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P07_V2",
+   "base_rule": "T_P07",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After some time passes, what happens to the shiny black block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的光滑黑色方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground below."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 359,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P07_V3",
+   "base_rule": "T_P07",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After some time passes, what happens to the shiny black block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的光滑黑色方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground below."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 359,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P07_V4",
+   "base_rule": "T_P07",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After some time passes, what happens to the shiny black block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的光滑黑色方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground below."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 359,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 360,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P08_V1",
+   "base_rule": "T_P08",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After some time passes, what happens to the red brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks on impact.",
+    "neither": "It crumbles slowly over time."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 39
+     },
+     {
+      "x": 369,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P08_V2",
+   "base_rule": "T_P08",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After some time passes, what happens to the red brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks on impact.",
+    "neither": "It crumbles slowly over time."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 41
+     },
+     {
+      "x": 369,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P08_V3",
+   "base_rule": "T_P08",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After some time passes, what happens to the red brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红色砖块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks on impact.",
+    "neither": "It crumbles slowly over time."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 46
+     },
+     {
+      "x": 369,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P08_V4",
+   "base_rule": "T_P08",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After some time passes, what happens to the red brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的红色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks on impact.",
+    "neither": "It crumbles slowly over time."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 369,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 370,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P09_V1",
+   "base_rule": "T_P09",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After some time passes, what happens to the gray brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的灰色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down.",
+    "neither": "It dissolves in the air."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 379,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 381,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P09_V2",
+   "base_rule": "T_P09",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After some time passes, what happens to the gray brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的灰色砖块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down.",
+    "neither": "It dissolves in the air."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 39
+     },
+     {
+      "x": 379,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 381,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P09_V3",
+   "base_rule": "T_P09",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After some time passes, what happens to the gray brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的灰色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down.",
+    "neither": "It dissolves in the air."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 41
+     },
+     {
+      "x": 379,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 381,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P09_V4",
+   "base_rule": "T_P09",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After some time passes, what happens to the gray brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的灰色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly slides down.",
+    "neither": "It dissolves in the air."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 46
+     },
+     {
+      "x": 379,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 381,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 380,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P10_V1",
+   "base_rule": "T_P10",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After some time passes, what happens to the golden brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的金色砖块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 389,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 391,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P10_V2",
+   "base_rule": "T_P10",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After some time passes, what happens to the golden brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的金色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 46
+     },
+     {
+      "x": 389,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 391,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P10_V3",
+   "base_rule": "T_P10",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After some time passes, what happens to the golden brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的金色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 39
+     },
+     {
+      "x": 389,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 391,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P10_V4",
+   "base_rule": "T_P10",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After some time passes, what happens to the golden brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的金色砖块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 41
+     },
+     {
+      "x": 389,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 391,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 390,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P11_V1",
+   "base_rule": "T_P11",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After some time passes, what happens to the silver brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的银色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and dents the ground.",
+    "neither": "It tarnishes and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 46
+     },
+     {
+      "x": 399,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 401,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P11_V2",
+   "base_rule": "T_P11",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After some time passes, what happens to the silver brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的银色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and dents the ground.",
+    "neither": "It tarnishes and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 399,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 401,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P11_V3",
+   "base_rule": "T_P11",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After some time passes, what happens to the silver brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的银色砖块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and dents the ground.",
+    "neither": "It tarnishes and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 39
+     },
+     {
+      "x": 399,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 401,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P11_V4",
+   "base_rule": "T_P11",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After some time passes, what happens to the silver brick block floating in mid-air?",
+   "question_zh": "过了一段时间后，悬浮在空中的银色砖块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and dents the ground.",
+    "neither": "It tarnishes and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 41
+     },
+     {
+      "x": 399,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 401,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 119,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 400,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P12_V1",
+   "base_rule": "T_P12",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 51,
+   "tile_name": "cobweb",
+   "tile_color": "white",
+   "question_en": "After a long time passes with nothing touching it, what happens to the cobweb?",
+   "question_zh": "过了很长时间，没有任何东西碰它，蜘蛛网会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly disintegrates and falls away.",
+    "neither": "It grows larger and spreads to nearby blocks."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 51
+     },
+     {
+      "x": 409,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 411,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 600,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 51
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P12_V2",
+   "base_rule": "T_P12",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 51,
+   "tile_name": "cobweb",
+   "tile_color": "white",
+   "question_en": "After a long time passes with nothing touching it, what happens to the cobweb?",
+   "question_zh": "过了很长时间，没有任何东西碰它，蜘蛛网会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly disintegrates and falls away.",
+    "neither": "It grows larger and spreads to nearby blocks."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 51
+     },
+     {
+      "x": 409,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 411,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 600,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 51
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P12_V3",
+   "base_rule": "T_P12",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 51,
+   "tile_name": "cobweb",
+   "tile_color": "white",
+   "question_en": "After a long time passes with nothing touching it, what happens to the cobweb?",
+   "question_zh": "过了很长时间，没有任何东西碰它，蜘蛛网会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly disintegrates and falls away.",
+    "neither": "It grows larger and spreads to nearby blocks."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 51
+     },
+     {
+      "x": 409,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 411,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 600,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 51
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P12_V4",
+   "base_rule": "T_P12",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 51,
+   "tile_name": "cobweb",
+   "tile_color": "white",
+   "question_en": "After a long time passes with nothing touching it, what happens to the cobweb?",
+   "question_zh": "过了很长时间，没有任何东西碰它，蜘蛛网会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly disintegrates and falls away.",
+    "neither": "It grows larger and spreads to nearby blocks."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 51
+     },
+     {
+      "x": 409,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 411,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 600,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 51
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P13_V1",
+   "base_rule": "T_P13",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 2,
+   "tile_name": "grass",
+   "tile_color": "green",
+   "question_en": "After a long time underground with no sunlight, what happens to the green grass-covered block?",
+   "question_zh": "在地下没有阳光的地方放置很长时间后，覆盖着绿草的方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays green.",
+    "real": "The grass turns brown and dies.",
+    "neither": "It turns to stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 120,
+      "type": 2
+     },
+     {
+      "x": 419,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 421,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 420,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P13_V2",
+   "base_rule": "T_P13",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 60,
+   "tile_name": "jungle grass",
+   "tile_color": "lush green",
+   "question_en": "After a long time underground with no sunlight, what happens to the green grass-covered block?",
+   "question_zh": "在地下没有阳光的地方放置很长时间后，覆盖着绿草的方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays green.",
+    "real": "The grass turns brown and dies.",
+    "neither": "It turns to stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 120,
+      "type": 60
+     },
+     {
+      "x": 419,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 421,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 420,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 60
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P13_V3",
+   "base_rule": "T_P13",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 23,
+   "tile_name": "corrupt grass",
+   "tile_color": "dark purple",
+   "question_en": "After a long time underground with no sunlight, what happens to the green grass-covered block?",
+   "question_zh": "在地下没有阳光的地方放置很长时间后，覆盖着绿草的方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays green.",
+    "real": "The grass turns brown and dies.",
+    "neither": "It turns to stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 120,
+      "type": 23
+     },
+     {
+      "x": 419,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 421,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 420,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 23
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P13_V4",
+   "base_rule": "T_P13",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 70,
+   "tile_name": "mushroom grass",
+   "tile_color": "blue-green",
+   "question_en": "After a long time underground with no sunlight, what happens to the green grass-covered block?",
+   "question_zh": "在地下没有阳光的地方放置很长时间后，覆盖着绿草的方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays green.",
+    "real": "The grass turns brown and dies.",
+    "neither": "It turns to stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 120,
+      "type": 70
+     },
+     {
+      "x": 419,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 421,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 420,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 70
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P14_V1",
+   "base_rule": "T_P14",
+   "variant": 1,
+   "category": "passive_conflict",
+   "tile_id": 6,
+   "tile_name": "iron ore",
+   "tile_color": "rust-brown",
+   "question_en": "After a long time passes, what happens to the rust-brown iron ore block?",
+   "question_zh": "过了很长时间后，锈棕色的铁矿石方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly corrodes and crumbles.",
+    "neither": "It turns into stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 6
+     },
+     {
+      "x": 429,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 431,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 6
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P14_V2",
+   "base_rule": "T_P14",
+   "variant": 2,
+   "category": "passive_conflict",
+   "tile_id": 7,
+   "tile_name": "copper ore",
+   "tile_color": "orange-brown",
+   "question_en": "After a long time passes, what happens to the rust-brown iron ore block?",
+   "question_zh": "过了很长时间后，锈棕色的铁矿石方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly corrodes and crumbles.",
+    "neither": "It turns into stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 7
+     },
+     {
+      "x": 429,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 431,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 7
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P14_V3",
+   "base_rule": "T_P14",
+   "variant": 3,
+   "category": "passive_conflict",
+   "tile_id": 8,
+   "tile_name": "gold ore",
+   "tile_color": "golden",
+   "question_en": "After a long time passes, what happens to the rust-brown iron ore block?",
+   "question_zh": "过了很长时间后，锈棕色的铁矿石方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly corrodes and crumbles.",
+    "neither": "It turns into stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 8
+     },
+     {
+      "x": 429,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 431,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 8
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_P14_V4",
+   "base_rule": "T_P14",
+   "variant": 4,
+   "category": "passive_conflict",
+   "tile_id": 9,
+   "tile_name": "silver ore",
+   "tile_color": "silver-grey",
+   "question_en": "After a long time passes, what happens to the rust-brown iron ore block?",
+   "question_zh": "过了很长时间后，锈棕色的铁矿石方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly as it is.",
+    "real": "It slowly corrodes and crumbles.",
+    "neither": "It turns into stone."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 9
+     },
+     {
+      "x": 429,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 431,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 119,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 1200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 9
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A01_V1",
+   "base_rule": "T_A01",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After the bottom block of this small tower is removed, what happens to the two blocks above it?",
+   "question_zh": "把这个小塔最底部的方块挖掉之后，上面的两个方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "They stay floating in the air.",
+    "real": "They both collapse to the ground.",
+    "neither": "Only the top block falls; the middle one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 123,
+      "type": 1
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 300,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 1
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A01_V2",
+   "base_rule": "T_A01",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After the bottom block of this small tower is removed, what happens to the two blocks above it?",
+   "question_zh": "把这个小塔最底部的方块挖掉之后，上面的两个方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "They stay floating in the air.",
+    "real": "They both collapse to the ground.",
+    "neither": "Only the top block falls; the middle one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 123,
+      "type": 0
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "type": 0
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": 0
+     },
+     {
+      "x": 300,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 0
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A01_V3",
+   "base_rule": "T_A01",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After the bottom block of this small tower is removed, what happens to the two blocks above it?",
+   "question_zh": "把这个小塔最底部的方块挖掉之后，上面的两个方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "They stay floating in the air.",
+    "real": "They both collapse to the ground.",
+    "neither": "Only the top block falls; the middle one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 123,
+      "type": 38
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "type": 38
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": 38
+     },
+     {
+      "x": 300,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 38
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A01_V4",
+   "base_rule": "T_A01",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After the bottom block of this small tower is removed, what happens to the two blocks above it?",
+   "question_zh": "把这个小塔最底部的方块挖掉之后，上面的两个方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "They stay floating in the air.",
+    "real": "They both collapse to the ground.",
+    "neither": "Only the top block falls; the middle one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 123,
+      "type": 45
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "type": 45
+     },
+     {
+      "x": 300,
+      "y": 121,
+      "type": 45
+     },
+     {
+      "x": 300,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 45
+     },
+     {
+      "x": 300,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A02_V1",
+   "base_rule": "T_A02",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "After the stone block directly below the wooden platform is removed, what happens to the platform?",
+   "question_zh": "把木质平台正下方的石块挖掉后，平台会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly tilts and slides off."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A02_V2",
+   "base_rule": "T_A02",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "After the stone block directly below the wooden platform is removed, what happens to the platform?",
+   "question_zh": "把木质平台正下方的石块挖掉后，平台会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly tilts and slides off."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A02_V3",
+   "base_rule": "T_A02",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "After the stone block directly below the wooden platform is removed, what happens to the platform?",
+   "question_zh": "把木质平台正下方的石块挖掉后，平台会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly tilts and slides off."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A02_V4",
+   "base_rule": "T_A02",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "After the stone block directly below the wooden platform is removed, what happens to the platform?",
+   "question_zh": "把木质平台正下方的石块挖掉后，平台会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly tilts and slides off."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 310,
+      "y": 121,
+      "type": -1
+     },
+     {
+      "x": 310,
+      "y": 125,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 310,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A03_V1",
+   "base_rule": "T_A03",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After the grey stone block directly below the clay block is removed, what happens to the clay block?",
+   "question_zh": "把黏土方块正下方的石块挖掉后，黏土方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It immediately falls down one level.",
+    "neither": "It slowly slides sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A03_V2",
+   "base_rule": "T_A03",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After the grey stone block directly below the clay block is removed, what happens to the clay block?",
+   "question_zh": "把黏土方块正下方的石块挖掉后，黏土方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It immediately falls down one level.",
+    "neither": "It slowly slides sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A03_V3",
+   "base_rule": "T_A03",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After the grey stone block directly below the clay block is removed, what happens to the clay block?",
+   "question_zh": "把黏土方块正下方的石块挖掉后，黏土方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It immediately falls down one level.",
+    "neither": "It slowly slides sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 59
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A03_V4",
+   "base_rule": "T_A03",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After the grey stone block directly below the clay block is removed, what happens to the clay block?",
+   "question_zh": "把黏土方块正下方的石块挖掉后，黏土方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It immediately falls down one level.",
+    "neither": "It slowly slides sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 320,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A04_V1",
+   "base_rule": "T_A04",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block directly below the sand block is removed, what happens to the sand?",
+   "question_zh": "把沙块正下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "real": "It stays in place.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 119,
+      "type": 53
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 122,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 330,
+      "y": 119,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A04_V2",
+   "base_rule": "T_A04",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block directly below the sand block is removed, what happens to the sand?",
+   "question_zh": "把沙块正下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "real": "It stays in place.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 119,
+      "type": 53
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 122,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 330,
+      "y": 119,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A04_V3",
+   "base_rule": "T_A04",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block directly below the sand block is removed, what happens to the sand?",
+   "question_zh": "把沙块正下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "real": "It stays in place.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 119,
+      "type": 53
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 122,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 330,
+      "y": 119,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A04_V4",
+   "base_rule": "T_A04",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block directly below the sand block is removed, what happens to the sand?",
+   "question_zh": "把沙块正下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "real": "It stays in place.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 119,
+      "type": 53
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 330,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 330,
+      "y": 122,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 330,
+      "y": 119,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A05_V1",
+   "base_rule": "T_A05",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "What happens if you place a wooden platform one block above the ground and try to walk up through it from below?",
+   "question_zh": "如果在地面上方一格放置木质平台，从下方向上跳，会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "You pass straight through the platform from below.",
+    "real": "You are blocked by the platform.",
+    "neither": "The platform breaks when you hit it from below."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 60,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A05_V2",
+   "base_rule": "T_A05",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "What happens if you place a wooden platform one block above the ground and try to walk up through it from below?",
+   "question_zh": "如果在地面上方一格放置木质平台，从下方向上跳，会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "You pass straight through the platform from below.",
+    "real": "You are blocked by the platform.",
+    "neither": "The platform breaks when you hit it from below."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 60,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A05_V3",
+   "base_rule": "T_A05",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "What happens if you place a wooden platform one block above the ground and try to walk up through it from below?",
+   "question_zh": "如果在地面上方一格放置木质平台，从下方向上跳，会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "You pass straight through the platform from below.",
+    "real": "You are blocked by the platform.",
+    "neither": "The platform breaks when you hit it from below."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 60,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A05_V4",
+   "base_rule": "T_A05",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 19,
+   "tile_name": "wooden platform",
+   "tile_color": "brown",
+   "question_en": "What happens if you place a wooden platform one block above the ground and try to walk up through it from below?",
+   "question_zh": "如果在地面上方一格放置木质平台，从下方向上跳，会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "You pass straight through the platform from below.",
+    "real": "You are blocked by the platform.",
+    "neither": "The platform breaks when you hit it from below."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 120,
+      "type": 19
+     },
+     {
+      "x": 340,
+      "y": 121,
+      "type": 1
+     }
+    ],
+    "ticks": 60,
+    "check": [
+     {
+      "x": 340,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A06_V1",
+   "base_rule": "T_A06",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After one block is removed from the middle of this row, what happens to the blocks on either side?",
+   "question_zh": "把这排方块中间的一个挖掉后，两侧的方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "They stay exactly where they are.",
+    "real": "The blocks on each side slide toward the gap.",
+    "neither": "They all fall into the gap."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 349,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 353,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 349,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A06_V2",
+   "base_rule": "T_A06",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After one block is removed from the middle of this row, what happens to the blocks on either side?",
+   "question_zh": "把这排方块中间的一个挖掉后，两侧的方块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "They stay exactly where they are.",
+    "real": "The blocks on each side slide toward the gap.",
+    "neither": "They all fall into the gap."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 349,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 353,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 349,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A06_V3",
+   "base_rule": "T_A06",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After one block is removed from the middle of this row, what happens to the blocks on either side?",
+   "question_zh": "把这排方块中间的一个挖掉后，两侧的方块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "They stay exactly where they are.",
+    "real": "The blocks on each side slide toward the gap.",
+    "neither": "They all fall into the gap."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 349,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 353,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 349,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A06_V4",
+   "base_rule": "T_A06",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After one block is removed from the middle of this row, what happens to the blocks on either side?",
+   "question_zh": "把这排方块中间的一个挖掉后，两侧的方块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "They stay exactly where they are.",
+    "real": "The blocks on each side slide toward the gap.",
+    "neither": "They all fall into the gap."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 349,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 351,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 353,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 350,
+      "y": 120,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 349,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     },
+     {
+      "x": 352,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A07_V1",
+   "base_rule": "T_A07",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After the rightmost supporting block is removed, leaving five blocks overhanging in mid-air, what happens?",
+   "question_zh": "把最右边的支撑块移除后，五个方块悬空在空中，会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "All five blocks stay where they are.",
+    "real": "The unsupported end collapses.",
+    "neither": "The whole row slides to the right."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 362,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 363,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 365,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 361,
+      "y": 120,
+      "expect_active": true
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "expect_active": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A07_V2",
+   "base_rule": "T_A07",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After the rightmost supporting block is removed, leaving five blocks overhanging in mid-air, what happens?",
+   "question_zh": "把最右边的支撑块移除后，五个方块悬空在空中，会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "All five blocks stay where they are.",
+    "real": "The unsupported end collapses.",
+    "neither": "The whole row slides to the right."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 362,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 363,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 365,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": 0
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": 0
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 361,
+      "y": 120,
+      "expect_active": true
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "expect_active": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A07_V3",
+   "base_rule": "T_A07",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After the rightmost supporting block is removed, leaving five blocks overhanging in mid-air, what happens?",
+   "question_zh": "把最右边的支撑块移除后，五个方块悬空在空中，会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "All five blocks stay where they are.",
+    "real": "The unsupported end collapses.",
+    "neither": "The whole row slides to the right."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 362,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 363,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 365,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": 38
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": 38
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 361,
+      "y": 120,
+      "expect_active": true
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "expect_active": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A07_V4",
+   "base_rule": "T_A07",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After the rightmost supporting block is removed, leaving five blocks overhanging in mid-air, what happens?",
+   "question_zh": "把最右边的支撑块移除后，五个方块悬空在空中，会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "All five blocks stay where they are.",
+    "real": "The unsupported end collapses.",
+    "neither": "The whole row slides to the right."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 361,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 362,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 363,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 365,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 360,
+      "y": 121,
+      "type": 45
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": 45
+     },
+     {
+      "x": 365,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 361,
+      "y": 120,
+      "expect_active": true
+     },
+     {
+      "x": 364,
+      "y": 120,
+      "expect_active": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A08_V1",
+   "base_rule": "T_A08",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After the central support block is removed and the two side blocks are left hanging, what happens to those two side blocks?",
+   "question_zh": "把中间的支撑块移除后，两侧方块就悬空了，它们会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "Both side blocks stay floating.",
+    "real": "Both side blocks fall immediately.",
+    "neither": "They start vibrating, then slowly drift apart."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A08_V2",
+   "base_rule": "T_A08",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After the central support block is removed and the two side blocks are left hanging, what happens to those two side blocks?",
+   "question_zh": "把中间的支撑块移除后，两侧方块就悬空了，它们会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "Both side blocks stay floating.",
+    "real": "Both side blocks fall immediately.",
+    "neither": "They start vibrating, then slowly drift apart."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": 0
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A08_V3",
+   "base_rule": "T_A08",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After the central support block is removed and the two side blocks are left hanging, what happens to those two side blocks?",
+   "question_zh": "把中间的支撑块移除后，两侧方块就悬空了，它们会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "Both side blocks stay floating.",
+    "real": "Both side blocks fall immediately.",
+    "neither": "They start vibrating, then slowly drift apart."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": 38
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A08_V4",
+   "base_rule": "T_A08",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After the central support block is removed and the two side blocks are left hanging, what happens to those two side blocks?",
+   "question_zh": "把中间的支撑块移除后，两侧方块就悬空了，它们会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "Both side blocks stay floating.",
+    "real": "Both side blocks fall immediately.",
+    "neither": "They start vibrating, then slowly drift apart."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": 45
+     },
+     {
+      "x": 371,
+      "y": 120,
+      "type": -1
+     },
+     {
+      "x": 371,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     },
+     {
+      "x": 372,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A09_V1",
+   "base_rule": "T_A09",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After the stone block below the ash block is removed, what happens to the ash?",
+   "question_zh": "把灰烬块下方的石块挖掉后，灰烬块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It crumbles and scatters downward.",
+    "neither": "It slowly drifts sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A09_V2",
+   "base_rule": "T_A09",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After the stone block below the ash block is removed, what happens to the ash?",
+   "question_zh": "把灰烬块下方的石块挖掉后，灰烬块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It crumbles and scatters downward.",
+    "neither": "It slowly drifts sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A09_V3",
+   "base_rule": "T_A09",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After the stone block below the ash block is removed, what happens to the ash?",
+   "question_zh": "把灰烬块下方的石块挖掉后，灰烬块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It crumbles and scatters downward.",
+    "neither": "It slowly drifts sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 59
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A09_V4",
+   "base_rule": "T_A09",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After the stone block below the ash block is removed, what happens to the ash?",
+   "question_zh": "把灰烬块下方的石块挖掉后，灰烬块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It crumbles and scatters downward.",
+    "neither": "It slowly drifts sideways."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 380,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 380,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A10_V1",
+   "base_rule": "T_A10",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 56,
+   "tile_name": "obsidian",
+   "tile_color": "shiny black",
+   "question_en": "After the stone block below the obsidian is removed, what happens to the obsidian?",
+   "question_zh": "把黑曜石正下方的石块挖掉后，黑曜石会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 56
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 56
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A10_V2",
+   "base_rule": "T_A10",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After the stone block below the obsidian is removed, what happens to the obsidian?",
+   "question_zh": "把黑曜石正下方的石块挖掉后，黑曜石会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A10_V3",
+   "base_rule": "T_A10",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After the stone block below the obsidian is removed, what happens to the obsidian?",
+   "question_zh": "把黑曜石正下方的石块挖掉后，黑曜石会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 38
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A10_V4",
+   "base_rule": "T_A10",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After the stone block below the obsidian is removed, what happens to the obsidian?",
+   "question_zh": "把黑曜石正下方的石块挖掉后，黑曜石会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 390,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 390,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A11_V1",
+   "base_rule": "T_A11",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After the stone block below the mud block is removed, what happens to the mud?",
+   "question_zh": "把泥块正下方的石块挖掉后，泥块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips down.",
+    "neither": "It dissolves into liquid."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 59
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A11_V2",
+   "base_rule": "T_A11",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After the stone block below the mud block is removed, what happens to the mud?",
+   "question_zh": "把泥块正下方的石块挖掉后，泥块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips down.",
+    "neither": "It dissolves into liquid."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 0
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A11_V3",
+   "base_rule": "T_A11",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After the stone block below the mud block is removed, what happens to the mud?",
+   "question_zh": "把泥块正下方的石块挖掉后，泥块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips down.",
+    "neither": "It dissolves into liquid."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A11_V4",
+   "base_rule": "T_A11",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After the stone block below the mud block is removed, what happens to the mud?",
+   "question_zh": "把泥块正下方的石块挖掉后，泥块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It slowly drips down.",
+    "neither": "It dissolves into liquid."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 400,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 400,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A12_V1",
+   "base_rule": "T_A12",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After the stone block below the clay block is removed, what happens to the clay?",
+   "question_zh": "把黏土块正下方的石块挖掉后，黏土块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly dries out and cracks."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 40
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A12_V2",
+   "base_rule": "T_A12",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After the stone block below the clay block is removed, what happens to the clay?",
+   "question_zh": "把黏土块正下方的石块挖掉后，黏土块会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly dries out and cracks."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A12_V3",
+   "base_rule": "T_A12",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After the stone block below the clay block is removed, what happens to the clay?",
+   "question_zh": "把黏土块正下方的石块挖掉后，黏土块会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly dries out and cracks."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 59
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A12_V4",
+   "base_rule": "T_A12",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After the stone block below the clay block is removed, what happens to the clay?",
+   "question_zh": "把黏土块正下方的石块挖掉后，黏土块会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls and breaks apart on impact.",
+    "neither": "It slowly dries out and cracks."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 120,
+      "type": 57
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A13_V1",
+   "base_rule": "T_A13",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After the bottom-left block of this tall wall is removed, what happens to the rest of the wall?",
+   "question_zh": "把这面高墙最左下角的方块挖掉后，剩余的墙会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "The rest of the wall stays in place.",
+    "real": "The whole wall topples over.",
+    "neither": "Only the left side collapses; the right half stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 123,
+      "type": 1
+     },
+     {
+      "x": 421,
+      "y": 123,
+      "type": 1
+     },
+     {
+      "x": 422,
+      "y": 123,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 421,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 422,
+      "y": 122,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 421,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 420,
+      "y": 123,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 421,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 1
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A13_V2",
+   "base_rule": "T_A13",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After the bottom-left block of this tall wall is removed, what happens to the rest of the wall?",
+   "question_zh": "把这面高墙最左下角的方块挖掉后，剩余的墙会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "The rest of the wall stays in place.",
+    "real": "The whole wall topples over.",
+    "neither": "Only the left side collapses; the right half stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 123,
+      "type": 0
+     },
+     {
+      "x": 421,
+      "y": 123,
+      "type": 0
+     },
+     {
+      "x": 422,
+      "y": 123,
+      "type": 0
+     },
+     {
+      "x": 420,
+      "y": 122,
+      "type": 0
+     },
+     {
+      "x": 421,
+      "y": 122,
+      "type": 0
+     },
+     {
+      "x": 422,
+      "y": 122,
+      "type": 0
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 0
+     },
+     {
+      "x": 421,
+      "y": 121,
+      "type": 0
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "type": 0
+     },
+     {
+      "x": 420,
+      "y": 123,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 421,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 0
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A13_V3",
+   "base_rule": "T_A13",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After the bottom-left block of this tall wall is removed, what happens to the rest of the wall?",
+   "question_zh": "把这面高墙最左下角的方块挖掉后，剩余的墙会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "The rest of the wall stays in place.",
+    "real": "The whole wall topples over.",
+    "neither": "Only the left side collapses; the right half stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 123,
+      "type": 38
+     },
+     {
+      "x": 421,
+      "y": 123,
+      "type": 38
+     },
+     {
+      "x": 422,
+      "y": 123,
+      "type": 38
+     },
+     {
+      "x": 420,
+      "y": 122,
+      "type": 38
+     },
+     {
+      "x": 421,
+      "y": 122,
+      "type": 38
+     },
+     {
+      "x": 422,
+      "y": 122,
+      "type": 38
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 38
+     },
+     {
+      "x": 421,
+      "y": 121,
+      "type": 38
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "type": 38
+     },
+     {
+      "x": 420,
+      "y": 123,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 421,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 38
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A13_V4",
+   "base_rule": "T_A13",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After the bottom-left block of this tall wall is removed, what happens to the rest of the wall?",
+   "question_zh": "把这面高墙最左下角的方块挖掉后，剩余的墙会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "The rest of the wall stays in place.",
+    "real": "The whole wall topples over.",
+    "neither": "Only the left side collapses; the right half stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 420,
+      "y": 123,
+      "type": 45
+     },
+     {
+      "x": 421,
+      "y": 123,
+      "type": 45
+     },
+     {
+      "x": 422,
+      "y": 123,
+      "type": 45
+     },
+     {
+      "x": 420,
+      "y": 122,
+      "type": 45
+     },
+     {
+      "x": 421,
+      "y": 122,
+      "type": 45
+     },
+     {
+      "x": 422,
+      "y": 122,
+      "type": 45
+     },
+     {
+      "x": 420,
+      "y": 121,
+      "type": 45
+     },
+     {
+      "x": 421,
+      "y": 121,
+      "type": 45
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "type": 45
+     },
+     {
+      "x": 420,
+      "y": 123,
+      "type": -1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 421,
+      "y": 122,
+      "expect_active": true,
+      "expect_type": 45
+     },
+     {
+      "x": 422,
+      "y": 121,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A14_V1",
+   "base_rule": "T_A14",
+   "variant": 1,
+   "category": "action_conflict",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After the stone block below the golden brick is removed, what happens to the gold brick?",
+   "question_zh": "把金砖正下方的石块挖掉后，金砖会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 45
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A14_V2",
+   "base_rule": "T_A14",
+   "variant": 2,
+   "category": "action_conflict",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After the stone block below the golden brick is removed, what happens to the gold brick?",
+   "question_zh": "把金砖正下方的石块挖掉后，金砖会怎样？",
+   "options_ordered": [
+    "real",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 46
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A14_V3",
+   "base_rule": "T_A14",
+   "variant": 3,
+   "category": "action_conflict",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After the stone block below the golden brick is removed, what happens to the gold brick?",
+   "question_zh": "把金砖正下方的石块挖掉后，金砖会怎样？",
+   "options_ordered": [
+    "real",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 39
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_A14_V4",
+   "base_rule": "T_A14",
+   "variant": 4,
+   "category": "action_conflict",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After the stone block below the golden brick is removed, what happens to the gold brick?",
+   "question_zh": "把金砖正下方的石块挖掉后，金砖会怎样？",
+   "options_ordered": [
+    "game",
+    "real",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it is.",
+    "real": "It falls straight down.",
+    "neither": "It slowly melts from its own weight."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 430,
+      "y": 120,
+      "type": 41
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": 1
+     },
+     {
+      "x": 430,
+      "y": 121,
+      "type": -1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 430,
+      "y": 120,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C01_V1",
+   "base_rule": "T_C01",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below the sand is removed, what happens to the sand?",
+   "question_zh": "把沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "over_departure": "It stays floating in mid-air.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 130,
+      "type": 53
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": 1
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 132,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 130,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C01_V2",
+   "base_rule": "T_C01",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below the sand is removed, what happens to the sand?",
+   "question_zh": "把沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "over_departure": "It stays floating in mid-air.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 130,
+      "type": 53
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": 1
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 132,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 130,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C01_V3",
+   "base_rule": "T_C01",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below the sand is removed, what happens to the sand?",
+   "question_zh": "把沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "over_departure": "It stays floating in mid-air.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 130,
+      "type": 53
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": 1
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 132,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 130,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C01_V4",
+   "base_rule": "T_C01",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below the sand is removed, what happens to the sand?",
+   "question_zh": "把沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It falls straight down.",
+    "over_departure": "It stays floating in mid-air.",
+    "neither": "It spreads outward in all directions."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 300,
+      "y": 130,
+      "type": 53
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": 1
+     },
+     {
+      "x": 300,
+      "y": 131,
+      "type": -1
+     },
+     {
+      "x": 300,
+      "y": 132,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 300,
+      "y": 130,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C02_V1",
+   "base_rule": "T_C02",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After a stone block is placed on solid ground, what happens to it over time?",
+   "question_zh": "把一块石头放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks slowly into the ground.",
+    "neither": "It slides sideways due to ground vibration."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 310,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C02_V2",
+   "base_rule": "T_C02",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After a stone block is placed on solid ground, what happens to it over time?",
+   "question_zh": "把一块石头放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks slowly into the ground.",
+    "neither": "It slides sideways due to ground vibration."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 130,
+      "type": 0
+     },
+     {
+      "x": 310,
+      "y": 131,
+      "type": 0
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C02_V3",
+   "base_rule": "T_C02",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After a stone block is placed on solid ground, what happens to it over time?",
+   "question_zh": "把一块石头放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks slowly into the ground.",
+    "neither": "It slides sideways due to ground vibration."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 130,
+      "type": 38
+     },
+     {
+      "x": 310,
+      "y": 131,
+      "type": 38
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C02_V4",
+   "base_rule": "T_C02",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After a stone block is placed on solid ground, what happens to it over time?",
+   "question_zh": "把一块石头放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks slowly into the ground.",
+    "neither": "It slides sideways due to ground vibration."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 310,
+      "y": 130,
+      "type": 45
+     },
+     {
+      "x": 310,
+      "y": 131,
+      "type": 45
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 310,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C03_V1",
+   "base_rule": "T_C03",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After a dirt block is placed on solid ground, what happens to it?",
+   "question_zh": "把一块泥土放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks into the ground below.",
+    "neither": "It slowly erodes into dust."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 130,
+      "type": 0
+     },
+     {
+      "x": 320,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C03_V2",
+   "base_rule": "T_C03",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After a dirt block is placed on solid ground, what happens to it?",
+   "question_zh": "把一块泥土放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks into the ground below.",
+    "neither": "It slowly erodes into dust."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 320,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C03_V3",
+   "base_rule": "T_C03",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After a dirt block is placed on solid ground, what happens to it?",
+   "question_zh": "把一块泥土放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks into the ground below.",
+    "neither": "It slowly erodes into dust."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 130,
+      "type": 40
+     },
+     {
+      "x": 320,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C03_V4",
+   "base_rule": "T_C03",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After a dirt block is placed on solid ground, what happens to it?",
+   "question_zh": "把一块泥土放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It sinks into the ground below.",
+    "neither": "It slowly erodes into dust."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 320,
+      "y": 130,
+      "type": 57
+     },
+     {
+      "x": 320,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 320,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C04_V1",
+   "base_rule": "T_C04",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After a mud block is placed on solid ground, what happens to it?",
+   "question_zh": "把泥块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads outward like a liquid.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 130,
+      "type": 59
+     },
+     {
+      "x": 330,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C04_V2",
+   "base_rule": "T_C04",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After a mud block is placed on solid ground, what happens to it?",
+   "question_zh": "把泥块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads outward like a liquid.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 130,
+      "type": 0
+     },
+     {
+      "x": 330,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C04_V3",
+   "base_rule": "T_C04",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After a mud block is placed on solid ground, what happens to it?",
+   "question_zh": "把泥块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads outward like a liquid.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 130,
+      "type": 40
+     },
+     {
+      "x": 330,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C04_V4",
+   "base_rule": "T_C04",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After a mud block is placed on solid ground, what happens to it?",
+   "question_zh": "把泥块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads outward like a liquid.",
+    "neither": "It dries out and crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 330,
+      "y": 130,
+      "type": 57
+     },
+     {
+      "x": 330,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 330,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C05_V1",
+   "base_rule": "T_C05",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After an ash block is placed on solid ground, what happens to it?",
+   "question_zh": "把灰烬块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It drifts downward like falling ash.",
+    "neither": "It spontaneously ignites."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 130,
+      "type": 57
+     },
+     {
+      "x": 340,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C05_V2",
+   "base_rule": "T_C05",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After an ash block is placed on solid ground, what happens to it?",
+   "question_zh": "把灰烬块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It drifts downward like falling ash.",
+    "neither": "It spontaneously ignites."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 130,
+      "type": 0
+     },
+     {
+      "x": 340,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C05_V3",
+   "base_rule": "T_C05",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After an ash block is placed on solid ground, what happens to it?",
+   "question_zh": "把灰烬块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It drifts downward like falling ash.",
+    "neither": "It spontaneously ignites."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 130,
+      "type": 59
+     },
+     {
+      "x": 340,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C05_V4",
+   "base_rule": "T_C05",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After an ash block is placed on solid ground, what happens to it?",
+   "question_zh": "把灰烬块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It drifts downward like falling ash.",
+    "neither": "It spontaneously ignites."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 340,
+      "y": 130,
+      "type": 40
+     },
+     {
+      "x": 340,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 340,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C06_V1",
+   "base_rule": "T_C06",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After a column of three stone blocks is built on solid ground, what happens to the column?",
+   "question_zh": "在实地上叠放三块石头，过了一段时间后这列方块会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "All three blocks stay stacked.",
+    "over_departure": "The top block slides off because there is nothing holding it.",
+    "neither": "The whole column sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "type": 1
+     },
+     {
+      "x": 350,
+      "y": 128,
+      "type": 1
+     },
+     {
+      "x": 350,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 128,
+      "expect_active": true,
+      "expect_type": 1
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C06_V2",
+   "base_rule": "T_C06",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 0,
+   "tile_name": "dirt",
+   "tile_color": "brown",
+   "question_en": "After a column of three stone blocks is built on solid ground, what happens to the column?",
+   "question_zh": "在实地上叠放三块石头，过了一段时间后这列方块会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "All three blocks stay stacked.",
+    "over_departure": "The top block slides off because there is nothing holding it.",
+    "neither": "The whole column sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 130,
+      "type": 0
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "type": 0
+     },
+     {
+      "x": 350,
+      "y": 128,
+      "type": 0
+     },
+     {
+      "x": 350,
+      "y": 131,
+      "type": 0
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 128,
+      "expect_active": true,
+      "expect_type": 0
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "expect_active": true,
+      "expect_type": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C06_V3",
+   "base_rule": "T_C06",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After a column of three stone blocks is built on solid ground, what happens to the column?",
+   "question_zh": "在实地上叠放三块石头，过了一段时间后这列方块会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "All three blocks stay stacked.",
+    "over_departure": "The top block slides off because there is nothing holding it.",
+    "neither": "The whole column sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 130,
+      "type": 38
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "type": 38
+     },
+     {
+      "x": 350,
+      "y": 128,
+      "type": 38
+     },
+     {
+      "x": 350,
+      "y": 131,
+      "type": 38
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 128,
+      "expect_active": true,
+      "expect_type": 38
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C06_V4",
+   "base_rule": "T_C06",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After a column of three stone blocks is built on solid ground, what happens to the column?",
+   "question_zh": "在实地上叠放三块石头，过了一段时间后这列方块会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "All three blocks stay stacked.",
+    "over_departure": "The top block slides off because there is nothing holding it.",
+    "neither": "The whole column sinks into the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 350,
+      "y": 130,
+      "type": 45
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "type": 45
+     },
+     {
+      "x": 350,
+      "y": 128,
+      "type": 45
+     },
+     {
+      "x": 350,
+      "y": 131,
+      "type": 45
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 350,
+      "y": 128,
+      "expect_active": true,
+      "expect_type": 45
+     },
+     {
+      "x": 350,
+      "y": 129,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C07_V1",
+   "base_rule": "T_C07",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After a gold brick is placed on solid ground, what happens to it?",
+   "question_zh": "把金砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks due to its weight.",
+    "neither": "It melts and spreads across the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 130,
+      "type": 45
+     },
+     {
+      "x": 360,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C07_V2",
+   "base_rule": "T_C07",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After a gold brick is placed on solid ground, what happens to it?",
+   "question_zh": "把金砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks due to its weight.",
+    "neither": "It melts and spreads across the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 130,
+      "type": 46
+     },
+     {
+      "x": 360,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C07_V3",
+   "base_rule": "T_C07",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After a gold brick is placed on solid ground, what happens to it?",
+   "question_zh": "把金砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks due to its weight.",
+    "neither": "It melts and spreads across the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 130,
+      "type": 39
+     },
+     {
+      "x": 360,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C07_V4",
+   "base_rule": "T_C07",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After a gold brick is placed on solid ground, what happens to it?",
+   "question_zh": "把金砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks due to its weight.",
+    "neither": "It melts and spreads across the ground."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 360,
+      "y": 130,
+      "type": 41
+     },
+     {
+      "x": 360,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 360,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C08_V1",
+   "base_rule": "T_C08",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 56,
+   "tile_name": "obsidian",
+   "tile_color": "shiny black",
+   "question_en": "After an obsidian block is placed on solid ground, what happens to it?",
+   "question_zh": "把黑曜石放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks into the ground below.",
+    "neither": "It slowly turns back to magma."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 130,
+      "type": 56
+     },
+     {
+      "x": 370,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 56
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C08_V2",
+   "base_rule": "T_C08",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After an obsidian block is placed on solid ground, what happens to it?",
+   "question_zh": "把黑曜石放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks into the ground below.",
+    "neither": "It slowly turns back to magma."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 370,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C08_V3",
+   "base_rule": "T_C08",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 38,
+   "tile_name": "gray brick",
+   "tile_color": "grey",
+   "question_en": "After an obsidian block is placed on solid ground, what happens to it?",
+   "question_zh": "把黑曜石放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks into the ground below.",
+    "neither": "It slowly turns back to magma."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 130,
+      "type": 38
+     },
+     {
+      "x": 370,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C08_V4",
+   "base_rule": "T_C08",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After an obsidian block is placed on solid ground, what happens to it?",
+   "question_zh": "把黑曜石放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly sinks into the ground below.",
+    "neither": "It slowly turns back to magma."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 370,
+      "y": 130,
+      "type": 45
+     },
+     {
+      "x": 370,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 370,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C09_V1",
+   "base_rule": "T_C09",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 40,
+   "tile_name": "clay",
+   "tile_color": "reddish-brown",
+   "question_en": "After a clay block is placed on solid ground, what happens to it?",
+   "question_zh": "把黏土块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads sideways like wet clay.",
+    "neither": "It dries out and shatters."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 130,
+      "type": 40
+     },
+     {
+      "x": 380,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C09_V2",
+   "base_rule": "T_C09",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 1,
+   "tile_name": "stone",
+   "tile_color": "grey",
+   "question_en": "After a clay block is placed on solid ground, what happens to it?",
+   "question_zh": "把黏土块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads sideways like wet clay.",
+    "neither": "It dries out and shatters."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 380,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C09_V3",
+   "base_rule": "T_C09",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 59,
+   "tile_name": "mud",
+   "tile_color": "dark",
+   "question_en": "After a clay block is placed on solid ground, what happens to it?",
+   "question_zh": "把黏土块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads sideways like wet clay.",
+    "neither": "It dries out and shatters."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 130,
+      "type": 59
+     },
+     {
+      "x": 380,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 59
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C09_V4",
+   "base_rule": "T_C09",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 57,
+   "tile_name": "ash",
+   "tile_color": "dark grey",
+   "question_en": "After a clay block is placed on solid ground, what happens to it?",
+   "question_zh": "把黏土块放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slowly spreads sideways like wet clay.",
+    "neither": "It dries out and shatters."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 380,
+      "y": 130,
+      "type": 57
+     },
+     {
+      "x": 380,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 380,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C10_V1",
+   "base_rule": "T_C10",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After a red brick block is placed on solid ground, what happens to it?",
+   "question_zh": "把红砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slides sideways because bricks are smooth.",
+    "neither": "It slowly crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 130,
+      "type": 39
+     },
+     {
+      "x": 390,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C10_V2",
+   "base_rule": "T_C10",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After a red brick block is placed on solid ground, what happens to it?",
+   "question_zh": "把红砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slides sideways because bricks are smooth.",
+    "neither": "It slowly crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 130,
+      "type": 41
+     },
+     {
+      "x": 390,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C10_V3",
+   "base_rule": "T_C10",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After a red brick block is placed on solid ground, what happens to it?",
+   "question_zh": "把红砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slides sideways because bricks are smooth.",
+    "neither": "It slowly crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 130,
+      "type": 46
+     },
+     {
+      "x": 390,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C10_V4",
+   "base_rule": "T_C10",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 45,
+   "tile_name": "gold brick",
+   "tile_color": "golden",
+   "question_en": "After a red brick block is placed on solid ground, what happens to it?",
+   "question_zh": "把红砖放在实地上，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays exactly where it was placed.",
+    "over_departure": "It slides sideways because bricks are smooth.",
+    "neither": "It slowly crumbles."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 390,
+      "y": 130,
+      "type": 45
+     },
+     {
+      "x": 390,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 390,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 45
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C11_V1",
+   "base_rule": "T_C11",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 54,
+   "tile_name": "glass",
+   "tile_color": "transparent",
+   "question_en": "After a glass block is placed on solid ground and nothing hits it, what happens to it?",
+   "question_zh": "把玻璃块放在实地上，没有任何东西撞它，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays intact exactly where it was placed.",
+    "over_departure": "It spontaneously shatters from temperature changes.",
+    "neither": "It slowly becomes opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 130,
+      "type": 54
+     },
+     {
+      "x": 400,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 54
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C11_V2",
+   "base_rule": "T_C11",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 39,
+   "tile_name": "red brick",
+   "tile_color": "red",
+   "question_en": "After a glass block is placed on solid ground and nothing hits it, what happens to it?",
+   "question_zh": "把玻璃块放在实地上，没有任何东西撞它，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays intact exactly where it was placed.",
+    "over_departure": "It spontaneously shatters from temperature changes.",
+    "neither": "It slowly becomes opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 130,
+      "type": 39
+     },
+     {
+      "x": 400,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C11_V3",
+   "base_rule": "T_C11",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 46,
+   "tile_name": "silver brick",
+   "tile_color": "silver",
+   "question_en": "After a glass block is placed on solid ground and nothing hits it, what happens to it?",
+   "question_zh": "把玻璃块放在实地上，没有任何东西撞它，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "It stays intact exactly where it was placed.",
+    "over_departure": "It spontaneously shatters from temperature changes.",
+    "neither": "It slowly becomes opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 130,
+      "type": 46
+     },
+     {
+      "x": 400,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C11_V4",
+   "base_rule": "T_C11",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 41,
+   "tile_name": "blue brick",
+   "tile_color": "blue",
+   "question_en": "After a glass block is placed on solid ground and nothing hits it, what happens to it?",
+   "question_zh": "把玻璃块放在实地上，没有任何东西撞它，过了一段时间后它会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "It stays intact exactly where it was placed.",
+    "over_departure": "It spontaneously shatters from temperature changes.",
+    "neither": "It slowly becomes opaque."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 400,
+      "y": 130,
+      "type": 41
+     },
+     {
+      "x": 400,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 300,
+    "check": [
+     {
+      "x": 400,
+      "y": 130,
+      "expect_active": true,
+      "expect_type": 41
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C12_V1",
+   "base_rule": "T_C12",
+   "variant": 1,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below a stack of two sand blocks is removed, what happens to the sand blocks?",
+   "question_zh": "把两块叠放沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "Both sand blocks fall straight down.",
+    "over_departure": "Both sand blocks float in mid-air.",
+    "neither": "Only the bottom sand block falls; the top one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 128,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": -1
+     },
+     {
+      "x": 410,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 128,
+      "expect_active": false
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C12_V2",
+   "base_rule": "T_C12",
+   "variant": 2,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below a stack of two sand blocks is removed, what happens to the sand blocks?",
+   "question_zh": "把两块叠放沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "game",
+    "neither"
+   ],
+   "options": {
+    "game": "Both sand blocks fall straight down.",
+    "over_departure": "Both sand blocks float in mid-air.",
+    "neither": "Only the bottom sand block falls; the top one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "B",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 128,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": -1
+     },
+     {
+      "x": 410,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 128,
+      "expect_active": false
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C12_V3",
+   "base_rule": "T_C12",
+   "variant": 3,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below a stack of two sand blocks is removed, what happens to the sand blocks?",
+   "question_zh": "把两块叠放沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "over_departure",
+    "neither",
+    "game"
+   ],
+   "options": {
+    "game": "Both sand blocks fall straight down.",
+    "over_departure": "Both sand blocks float in mid-air.",
+    "neither": "Only the bottom sand block falls; the top one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "C",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 128,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": -1
+     },
+     {
+      "x": 410,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 128,
+      "expect_active": false
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "expect_active": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "T_C12_V4",
+   "base_rule": "T_C12",
+   "variant": 4,
+   "category": "consistent",
+   "tile_id": 53,
+   "tile_name": "sand",
+   "tile_color": "yellowish",
+   "question_en": "After the stone block below a stack of two sand blocks is removed, what happens to the sand blocks?",
+   "question_zh": "把两块叠放沙块下方的石块挖掉后，沙块会怎样？",
+   "options_ordered": [
+    "game",
+    "over_departure",
+    "neither"
+   ],
+   "options": {
+    "game": "Both sand blocks fall straight down.",
+    "over_departure": "Both sand blocks float in mid-air.",
+    "neither": "Only the bottom sand block falls; the top one stays."
+   },
+   "correct_key": "game",
+   "correct_letter": "A",
+   "scene": {
+    "tiles": [
+     {
+      "x": 410,
+      "y": 128,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "type": 53
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": 1
+     },
+     {
+      "x": 410,
+      "y": 130,
+      "type": -1
+     },
+     {
+      "x": 410,
+      "y": 131,
+      "type": 1
+     }
+    ],
+    "ticks": 200,
+    "check": [
+     {
+      "x": 410,
+      "y": 128,
+      "expect_active": false
+     },
+     {
+      "x": 410,
+      "y": 129,
+      "expect_active": false
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>TileVerify</AssemblyName>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <NoWarn>CS0626;CS0169;CS0067;NU1701</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="TerrariaServer"><HintPath>..\server\bin\TerrariaServer.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="OTAPI"><HintPath>..\server\bin\OTAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="TShockAPI"><HintPath>..\server\ServerPlugins\TShockAPI.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

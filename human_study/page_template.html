@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex">
+<title>看图判断测评</title>
+<style>
+/* Mobile first: one column, sticky top bar (progress + export on every screen), sticky confirm button at the bottom. */
+:root {
+  --bg: #f3f4f1; --panel: #ffffff; --ink: #1d2320; --muted: #5d6762; --line: #d5dad5;
+  --accent: #2f6b4f; --accent-ink: #ffffff; --pick: #e3efe8; --warn: #9a5b12; --warn-bg: #fbf1e1; --shade: rgba(0,0,0,.55);
+  --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", system-ui, sans-serif;
+  --mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #151917; --panel: #1e2421; --ink: #e6ebe7; --muted: #9aa59f; --line: #34403a;
+          --accent: #6fbf95; --accent-ink: #0f1a14; --pick: #24382d; --warn: #e2b56e; --warn-bg: #2d2415; --shade: rgba(0,0,0,.7);
+          color-scheme: dark; }
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--font); -webkit-text-size-adjust: 100%; }
+button { font: inherit; }
+
+.appbar { position: sticky; top: 0; z-index: 20; background: var(--panel); border-bottom: 1px solid var(--line);
+          padding: calc(8px + env(safe-area-inset-top, 0px)) max(14px, env(safe-area-inset-right, 0px)) 8px max(14px, env(safe-area-inset-left, 0px)); }
+.appbar .row1 { display: flex; align-items: center; gap: 10px; max-width: 720px; margin: 0 auto; }
+.appbar .title { font-weight: 700; white-space: nowrap; }
+.appbar .prog { font-variant-numeric: tabular-nums; color: var(--muted); font-size: .9rem; white-space: nowrap; }
+.appbar .spacer { flex: 1; }
+.track { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; max-width: 720px; margin: 8px auto 0; }
+.fill { height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+.saved { font-size: .78rem; color: var(--muted); max-width: 720px; margin: 4px auto 0; min-height: 1.2em; }
+
+.wrap { max-width: 720px; margin: 0 auto; padding: 14px max(14px, env(safe-area-inset-right, 0px)) 24px max(14px, env(safe-area-inset-left, 0px));
+        display: grid; gap: 14px; }
+.stack { display: grid; gap: 14px; }
+h1 { font-size: 1.4rem; line-height: 1.3; margin: 0; }
+h2 { font-size: 1.1rem; margin: 0; }
+p { margin: 0; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 12px; }
+.muted { color: var(--muted); }
+.small { font-size: .875rem; }
+ul.rules { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+.banner { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 10px 14px; font-size: .9rem; }
+.note { background: var(--pick); border-radius: 10px; padding: 10px 14px; }
+
+.btn { border-radius: 10px; padding: 12px 18px; cursor: pointer; font-weight: 600; min-height: 46px; }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border: 0; }
+.btn.primary:disabled { opacity: .4; cursor: not-allowed; }
+.btn.secondary { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+.btn.small { min-height: 34px; padding: 5px 12px; font-size: .88rem; border-radius: 8px; font-weight: 600; }
+.btn.block { width: 100%; }
+.btnrow { display: flex; flex-wrap: wrap; gap: 10px; }
+button:focus-visible, .choice:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 8px; min-width: 0; }
+legend { font-weight: 600; margin-bottom: 6px; padding: 0; }
+.opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.opts label, .check { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; border: 1.5px solid var(--line);
+              border-radius: 999px; padding: 7px 13px; background: var(--panel); min-height: 40px; }
+.opts label:has(input:checked), .check:has(input:checked) { border-color: var(--accent); background: var(--pick); }
+.opts input, .check input { accent-color: var(--accent); margin: 0; flex: none; }
+.check { border-radius: 10px; }
+input[type="text"] { width: 100%; font: inherit; font-size: 16px; padding: 11px 12px; border: 1.5px solid var(--line);
+                     border-radius: 10px; background: var(--bg); color: var(--ink); }
+textarea { width: 100%; min-height: 90px; font: .82rem/1.4 var(--mono); background: var(--bg); color: var(--ink);
+           border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+.err { color: var(--warn); font-size: .9rem; }
+
+/* question */
+.shotbox { position: relative; background: var(--line); border-radius: 12px; overflow: hidden; aspect-ratio: 16 / 10; }
+.shot { display: block; width: 100%; height: 100%; object-fit: contain; cursor: zoom-in; background: #000; }
+.zoomhint { position: absolute; right: 8px; bottom: 8px; font-size: .75rem; color: #fff; background: rgba(0,0,0,.45);
+            border-radius: 6px; padding: 2px 8px; pointer-events: none; }
+.shotbox.loading .zoomhint { display: none; }
+.imgstate { position: absolute; inset: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; align-items: center;
+            justify-content: center; color: var(--muted); font-size: .9rem; text-align: center; padding: 12px; }
+.choice:disabled { opacity: .55; cursor: wait; }
+.label { font-size: .75rem; letter-spacing: .06em; color: var(--muted); }
+.en { font-weight: 600; }
+.zh { color: var(--muted); }
+.q .en { font-weight: 500; font-size: .92rem; }
+.q .zh { font-size: .88rem; }
+.choices { display: grid; gap: 10px; }
+.choice { display: grid; grid-template-columns: 2rem 1fr; gap: 10px; align-items: start; text-align: left; width: 100%;
+          background: var(--panel); color: var(--ink); border: 1.5px solid var(--line); border-radius: 12px; padding: 12px 14px;
+          cursor: pointer; min-height: 56px; }
+.choice[aria-checked="true"] { border-color: var(--accent); background: var(--pick); box-shadow: inset 0 0 0 1px var(--accent); }
+.choice .key { font-weight: 700; color: var(--accent); font-family: var(--mono); font-size: 1.05rem; }
+.choice .txt { display: grid; gap: 2px; min-width: 0; }
+.choice .zh { font-size: .92rem; }
+.dock { position: sticky; bottom: 0; z-index: 10; background: linear-gradient(to bottom, transparent, var(--bg) 30%);
+        padding: 16px 0 calc(10px + env(safe-area-inset-bottom, 0px)); }
+.dock .hint { font-size: .78rem; color: var(--muted); text-align: center; margin-top: 6px; }
+
+/* overlays */
+.overlay { position: fixed; inset: 0; z-index: 50; background: var(--shade); display: flex; align-items: flex-end; justify-content: center; }
+.sheet { background: var(--panel); width: 100%; max-width: 720px; border-radius: 16px 16px 0 0; padding: 18px 16px calc(18px + env(safe-area-inset-bottom, 0px));
+         display: grid; gap: 12px; max-height: 90vh; overflow: auto; }
+@media (min-width: 760px) { .overlay { align-items: center; } .sheet { border-radius: 16px; } }
+.zoom { position: fixed; inset: 0; z-index: 60; background: #000; display: flex; align-items: center; justify-content: center; }
+.zoom img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.zoom .close { position: absolute; top: calc(10px + env(safe-area-inset-top, 0px)); right: 12px; color: #fff; background: rgba(255,255,255,.18);
+               border: 0; border-radius: 999px; padding: 6px 14px; }
+@media (prefers-reduced-motion: reduce) { .fill { transition: none; } }
+</style>
+</head>
+<body>
+<header class="appbar">
+  <div class="row1">
+    <span class="title">看图判断</span>
+    <span id="progText" class="prog"></span>
+    <span class="spacer"></span>
+    <button id="exportBtn" class="btn secondary small" type="button" hidden>导出进度</button>
+  </div>
+  <div class="track" id="track" hidden><div id="progFill" class="fill"></div></div>
+  <p id="savedText" class="saved" hidden></p>
+</header>
+
+<main class="wrap">
+  <div id="storageWarn" class="banner" hidden>这个浏览器不能自动保存进度（可能是无痕模式）。请不要关闭页面，尽量一次做完，并经常点右上角“导出进度”发给组织者；或换用手机自带浏览器、Chrome、Safari 打开。</div>
+
+  <!-- start -->
+  <section id="intro" class="stack" hidden>
+    <div class="panel">
+      <h1>看图判断测评</h1>
+      <p>感谢参与！每题给出一张截图和一个动作，请选出这个动作之后会发生什么。</p>
+      <ul class="rules">
+        <li>共 <b class="nTotal">100</b> 题，大约 25 分钟。做到第 <b class="nHalf">50</b> 题会提示休息，可以分两次做完。</li>
+        <li>凭你自己的判断作答，不要查资料，也不要和别人讨论。每题确认后进入下一题，不能返回修改。</li>
+        <li>每答一题都会立刻保存在这台设备的浏览器里。中途退出后，用同一个浏览器重新打开本页、填同一个实验编号即可接着做。</li>
+        <li>任何时候都可以点右上角 <b>导出进度</b>，把目前的作答发给组织者备份；做完后请把结果发给组织者。</li>
+        <li>测评匿名进行，不收集姓名、联系方式等个人信息。</li>
+      </ul>
+      <p class="muted small">截图可以点开放大。换手机、换浏览器或清除浏览器数据会丢失本机进度，所以中途也建议导出一次。</p>
+    </div>
+
+    <form id="startForm" class="panel" novalidate>
+      <fieldset>
+        <legend>实验编号</legend>
+        <input type="text" id="pidInput" name="pid" maxlength="64" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="例如 17、A3、lab-zhang-02">
+        <p class="muted small">任意数字、字母或 ID 都可以，组织者靠它区分每一份问卷。请记住它，继续作答时要填同一个编号。</p>
+      </fieldset>
+      <div id="resumeBox" class="note" hidden></div>
+
+      <div id="profileBox" class="stack">
+        <fieldset><legend>1. 你玩过 Minecraft（我的世界）吗？</legend><div class="opts">
+          <label><input type="radio" name="played" value="never">从没玩过</label>
+          <label><input type="radio" name="played" value="little">玩过一点</label>
+          <label><input type="radio" name="played" value="often">经常玩</label></div></fieldset>
+        <fieldset><legend>2. 累计游戏时长大约是？</legend><div class="opts">
+          <label><input type="radio" name="hours" value="0">没玩过</label>
+          <label><input type="radio" name="hours" value="lt10">10 小时以内</label>
+          <label><input type="radio" name="hours" value="10-100">10–100 小时</label>
+          <label><input type="radio" name="hours" value="100-500">100–500 小时</label>
+          <label><input type="radio" name="hours" value="gt500">500 小时以上</label></div></fieldset>
+        <fieldset><legend>3. 主要玩哪个版本？</legend><div class="opts">
+          <label><input type="radio" name="edition" value="java">Java 版（电脑）</label>
+          <label><input type="radio" name="edition" value="bedrock">基岩版（手机、主机等）</label>
+          <label><input type="radio" name="edition" value="both">两个都玩</label>
+          <label><input type="radio" name="edition" value="unsure">不清楚 / 没玩过</label></div></fieldset>
+        <fieldset><legend>4. 最近一次玩是什么时候？</legend><div class="opts">
+          <label><input type="radio" name="recent" value="month">一个月内</label>
+          <label><input type="radio" name="recent" value="year">一年内</label>
+          <label><input type="radio" name="recent" value="older">一年以前</label>
+          <label><input type="radio" name="recent" value="never">没玩过</label></div></fieldset>
+        <fieldset><legend>5. 对 Minecraft 规则的熟悉程度（1 = 完全不熟，5 = 非常熟）</legend><div class="opts">
+          <label><input type="radio" name="familiarity" value="1">1</label><label><input type="radio" name="familiarity" value="2">2</label>
+          <label><input type="radio" name="familiarity" value="3">3</label><label><input type="radio" name="familiarity" value="4">4</label>
+          <label><input type="radio" name="familiarity" value="5">5</label></div></fieldset>
+      </div>
+      <p id="startErr" class="err" hidden></p>
+      <button type="submit" id="startBtn" class="btn primary block">开始作答</button>
+    </form>
+  </section>
+
+  <!-- question -->
+  <section id="quiz" class="stack" hidden>
+    <div class="shotbox" id="shotbox"><img id="shot" class="shot" alt="题目截图（点按放大）"><span class="zoomhint">点按放大</span>
+      <p class="imgstate" id="loadingNote">图片加载中…</p>
+      <p class="imgstate" id="imgErr" hidden>图片没有加载出来。<button id="imgRetry" class="btn secondary small" type="button">点这里重试</button></p></div>
+    <div class="panel">
+      <div><div class="label">动作 · Action</div><p class="en" id="actEn"></p><p class="zh" id="actZh"></p></div>
+      <div class="q"><p class="en" id="qEn"></p><p class="zh" id="qZh"></p></div>
+      <div id="choices" class="choices" role="radiogroup" aria-label="选项"></div>
+    </div>
+    <div class="dock">
+      <button id="nextBtn" class="btn primary block" disabled>确认，下一题</button>
+      <p class="hint">先点选一个选项，再点确认。电脑上也可以按 1 / 2 / 3 选择，按回车确认。</p>
+    </div>
+  </section>
+
+  <!-- halfway -->
+  <section id="rest" class="panel" hidden>
+    <h2 id="restTitle">已完成一半</h2>
+    <p id="restText"></p>
+    <p class="muted small">进度已经保存在本机。现在关掉也没关系：之后用同一个浏览器打开本页、填同一个编号，就从第 <span class="nNext">51</span> 题继续。也可以现在点“导出进度”发给组织者备份。</p>
+    <div class="btnrow"><button id="restGo" class="btn primary" type="button">继续作答</button>
+      <button class="btn secondary openExport" type="button">导出进度</button></div>
+  </section>
+
+  <!-- last question -->
+  <section id="post" class="panel" hidden>
+    <h2>最后一个问题</h2>
+    <form id="postForm" class="stack" novalidate>
+      <fieldset><legend>你主要按什么来判断结果？</legend><div class="opts">
+        <label><input type="radio" name="basis" value="game">按游戏里的规则</label>
+        <label><input type="radio" name="basis" value="real">按现实中的物理</label>
+        <label><input type="radio" name="basis" value="mixed">视题目而定</label></div></fieldset>
+      <fieldset><legend>其他想说的（选填）</legend><textarea id="note" name="note" maxlength="1000"></textarea></fieldset>
+      <p id="postErr" class="err" hidden>请选择一项。</p>
+      <div class="btnrow"><button type="submit" class="btn primary">提交</button>
+        <button class="btn secondary openExport" type="button">导出进度</button></div>
+    </form>
+  </section>
+
+  <!-- finished -->
+  <section id="done" class="panel" hidden>
+    <h1>全部完成，谢谢！</h1>
+    <p id="doneSummary"></p>
+    <p>请把结果发给组织者：手机或微信里点“复制结果文本”，再粘贴到聊天里发送；电脑上可以点“下载结果文件”。</p>
+    <div class="btnrow"><button class="btn primary doCopy" type="button">复制结果文本</button><button class="btn secondary doDownload" type="button">下载结果文件</button></div>
+    <p class="muted small exportMsg"></p>
+    <textarea class="dump" readonly aria-label="结果文本"></textarea>
+    <button id="anotherBtn" class="btn secondary" type="button">换一个实验编号</button>
+  </section>
+</main>
+
+<!-- export sheet, reachable from every screen -->
+<div id="exportSheet" class="overlay" hidden role="dialog" aria-modal="true" aria-labelledby="exportTitle">
+  <div class="sheet">
+    <h2 id="exportTitle">导出进度</h2>
+    <p id="exportInfo" class="small"></p>
+    <p class="muted small">手机或微信里请用“复制”，再粘贴到聊天里发给组织者；电脑上可以下载文件。导出不影响继续作答。</p>
+    <div class="btnrow"><button class="btn primary doCopy" type="button">复制进度文本</button><button class="btn secondary doDownload" type="button">下载进度文件</button></div>
+    <p class="muted small exportMsg"></p>
+    <textarea class="dump" readonly aria-label="进度文本"></textarea>
+    <button id="exportClose" class="btn secondary block" type="button">关闭</button>
+  </div>
+</div>
+<div id="zoom" class="zoom" hidden><img id="zoomImg" alt="放大的截图"><button class="close" type="button" id="zoomClose">关闭</button></div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  "use strict";
+  var DATA = JSON.parse(document.getElementById("data").textContent);
+  var PREFIX = "rulecraft-human-v" + DATA.version + ":";
+  var MIN_MS = 800;                      // a choice can be confirmed only after the question has been on screen this long
+  var TOTAL = DATA.total, HALF = Math.floor(DATA.total / 2);
+  var $ = function (id) { return document.getElementById(id); };
+  var all = function (sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); };
+  var state = null, picked = null, shownAt = 0, ready = false, readyTimer = null, screen = "intro", restShown = false;
+
+  var canStore = true;
+  try { localStorage.setItem(PREFIX + "probe", "1"); localStorage.removeItem(PREFIX + "probe"); } catch (e) { canStore = false; }
+
+  // ---- the id decides everything: which 100 rules (stratified draw), which variant of each, and the order
+  function utf8(s) {
+    if (window.TextEncoder) return new TextEncoder().encode(s);
+    var b = unescape(encodeURIComponent(s)), out = [];
+    for (var i = 0; i < b.length; i++) out.push(b.charCodeAt(i));
+    return out;
+  }
+  function fnv1a(s) {
+    var b = utf8(s), h = 0x811c9dc5;
+    for (var i = 0; i < b.length; i++) { h ^= b[i]; h = Math.imul(h, 0x01000193) >>> 0; }
+    return h >>> 0;
+  }
+  function mulberry32(a) {
+    return function () { a |= 0; a = (a + 0x6D2B79F5) | 0; var t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  }
+  function shuffle(a, rnd) {
+    for (var i = a.length - 1; i > 0; i--) { var k = Math.floor(rnd() * (i + 1)); var t = a[i]; a[i] = a[k]; a[k] = t; }
+    return a;
+  }
+  function assign(pid) {
+    var h = fnv1a(pid), offset = h % 8, rnd = mulberry32(h), rules = [];
+    DATA.strata.forEach(function (s) { rules = rules.concat(shuffle(s.rules.slice(), rnd).slice(0, s.take)); });
+    var ids = shuffle(rules.map(function (r) { return r + "_v" + ((offset + DATA.rj[r]) % 8); }), rnd);
+    return { offset: offset, items: ids };
+  }
+  function token() {
+    var a = new Uint8Array(8);
+    try { crypto.getRandomValues(a); } catch (e) { for (var i = 0; i < 8; i++) a[i] = Math.floor(Math.random() * 256); }
+    return Array.prototype.map.call(a, function (x) { return ("0" + x.toString(16)).slice(-2); }).join("");
+  }
+
+  // ---- storage: two copies per id, written and read back on every answer
+  function keyOf(pid) { return PREFIX + encodeURIComponent(pid); }
+  function readOne(k, pid) { try { var s = JSON.parse(localStorage.getItem(k) || "null"); return s && s.pid === pid ? s : null; } catch (e) { return null; } }
+  function loadState(pid) {
+    if (!canStore) return null;
+    var a = readOne(keyOf(pid), pid), b = readOne(keyOf(pid) + ":backup", pid);
+    if (a && b) return a.answers.length >= b.answers.length ? a : b;
+    return a || b;
+  }
+  function stamp() { var d = new Date(); return ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2); }
+  function save() {
+    if (!state) return false;
+    state.saved_at = new Date().toISOString();
+    if (!canStore) { setSaved("未能保存到本机，请记得导出进度"); return false; }
+    try {
+      var text = JSON.stringify(state), k = keyOf(state.pid);
+      localStorage.setItem(k, text);
+      if (localStorage.getItem(k) !== text) throw new Error("read-back mismatch");
+      localStorage.setItem(k + ":backup", text);
+      setSaved("已自动保存 " + state.answers.length + " 题 · " + stamp());
+      return true;
+    } catch (e) { canStore = false; $("storageWarn").hidden = false; setSaved("未能保存到本机，请记得导出进度"); return false; }
+  }
+  function setSaved(t) { $("savedText").hidden = !t; $("savedText").textContent = t || ""; }
+
+  // a draft of the start form, so a reload does not lose what was typed
+  function saveDraft() {
+    if (!canStore) return;
+    var d = { pid: $("pidInput").value };
+    all('#startForm input[type="radio"]:checked').forEach(function (c) { d[c.name] = c.value; });
+    try { localStorage.setItem(PREFIX + "draft", JSON.stringify(d)); } catch (e) { /* ignore */ }
+  }
+  function loadDraft() {
+    if (!canStore) return;
+    try {
+      var d = JSON.parse(localStorage.getItem(PREFIX + "draft") || "null"); if (!d) return;
+      $("pidInput").value = d.pid || "";
+      Object.keys(d).forEach(function (n) { if (n === "pid") return;
+        var c = document.querySelector('#startForm input[name="' + n + '"][value="' + d[n] + '"]'); if (c) c.checked = true; });
+    } catch (e) { /* ignore */ }
+  }
+
+  // ---- export: compact text (answers as [item, choice, ms on screen, seconds since start]); copy or download
+  function exportText(s) {
+    var t0 = Date.parse(s.started_at);
+    return JSON.stringify({ v: 5, pid: s.pid, session: s.session, offset: s.offset, n: s.items.length, items: s.items,
+      profile: s.profile, device: s.device, started_at: s.started_at, finished_at: s.finished_at, saved_at: s.saved_at,
+      a: s.answers.map(function (x) { return [x.id, x.choice, x.rt_ms, Math.round((Date.parse(x.at) - t0) / 1000)]; }),
+      post: s.post });
+  }
+  function safeName(pid) { return pid.replace(/[\\\/:*?"<>|\s]+/g, "_").slice(0, 40) || "id"; }
+  function fileName(s) {
+    var day = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+    return "RuleCraft_human_" + safeName(s.pid) + (s.post ? "_final_" : "_progress_" + s.answers.length + "of" + s.items.length + "_") + day + ".json";
+  }
+  var exportTarget = null;
+  function fillDumps(s) { all(".dump").forEach(function (t) { t.value = exportText(s); }); all(".exportMsg").forEach(function (m) { m.textContent = ""; }); }
+  function msg(t) { all(".exportMsg").forEach(function (m) { m.textContent = t; }); }
+  function openExport(s) {
+    exportTarget = s || state; if (!exportTarget) return;
+    fillDumps(exportTarget);
+    $("exportInfo").textContent = "实验编号 “" + exportTarget.pid + "”：已答 " + exportTarget.answers.length + " / " + exportTarget.items.length +
+      " 题" + (exportTarget.post ? "，已全部完成" : "") + "。";
+    $("exportSheet").hidden = false;
+  }
+  function closeExport() { $("exportSheet").hidden = true; }
+  function doDownload() {
+    var s = exportTarget || state; if (!s) return;
+    try {
+      var blob = new Blob([exportText(s)], { type: "application/json" }), a = document.createElement("a"), name = fileName(s);
+      a.href = URL.createObjectURL(blob); a.download = name;
+      document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
+      msg("已开始下载 " + name + "。如果没有看到文件（微信里常见），请改用“复制”。");
+    } catch (e) { msg("下载没有成功，请改用“复制”，或长按下面框里的文字复制。"); }
+  }
+  function doCopy() {
+    var s = exportTarget || state; if (!s) return;
+    var t = exportText(s), box = document.querySelector(!$("exportSheet").hidden ? "#exportSheet .dump" : "#done .dump");
+    var fallback = function () {
+      box.focus(); box.select(); box.setSelectionRange(0, t.length);
+      var ok = false; try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+      msg(ok ? "已复制，可以直接粘贴发送。" : "已选中框里的文字，请长按选择“复制”，再粘贴发送。");
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
+      navigator.clipboard.writeText(t).then(function () { msg("已复制，可以直接粘贴发送。"); }, fallback);
+    } else fallback();
+  }
+  all(".doDownload").forEach(function (b) { b.addEventListener("click", doDownload); });
+  all(".doCopy").forEach(function (b) { b.addEventListener("click", doCopy); });
+  all(".openExport").forEach(function (b) { b.addEventListener("click", function () { openExport(); }); });
+  $("exportBtn").addEventListener("click", function () {
+    if (state) openExport(state);
+    else { var pid = currentPid(), s = pid ? loadState(pid) : null; if (s) openExport(s); }
+  });
+  $("exportClose").addEventListener("click", closeExport);
+  $("exportSheet").addEventListener("click", function (e) { if (e.target === $("exportSheet")) closeExport(); });
+
+  // ---- screens and the top bar
+  function show(id) {
+    screen = id;
+    ["intro", "quiz", "rest", "post", "done"].forEach(function (s) { $(s).hidden = s !== id; });
+    refreshBar(); window.scrollTo(0, 0);
+  }
+  function refreshBar() {
+    if (!state) {
+      var pid = currentPid(), saved = pid ? loadState(pid) : null;
+      $("exportBtn").hidden = !saved; $("track").hidden = true; $("progText").textContent = ""; setSaved("");
+      return;
+    }
+    var k = state.answers.length, n = state.items.length;
+    $("exportBtn").hidden = false; $("track").hidden = false;
+    $("progFill").style.width = (100 * k / n) + "%";
+    $("progText").textContent = screen === "quiz" ? "第 " + (k + 1) + " / " + n + " 题" : "已答 " + k + " / " + n;
+  }
+
+  // ---- start page
+  var PROFILE = ["played", "hours", "edition", "recent", "familiarity"];
+  function currentPid() { return $("pidInput").value.trim(); }
+  function refreshResume() {
+    var pid = currentPid(), s = pid ? loadState(pid) : null, box = $("resumeBox");
+    $("startErr").hidden = true;
+    if (s && (s.answers.length || s.post)) {
+      box.hidden = false; $("profileBox").hidden = true;
+      if (s.post) { box.textContent = "编号 “" + pid + "” 已经全部完成。点下面的按钮可以再次导出结果。"; $("startBtn").textContent = "查看并导出结果"; }
+      else { box.textContent = "找到编号 “" + pid + "” 的进度：已完成 " + s.answers.length + " / " + s.items.length + " 题，将从下一题继续。"; $("startBtn").textContent = "继续作答"; }
+    } else {
+      box.hidden = true; $("profileBox").hidden = false; $("startBtn").textContent = "开始作答";
+    }
+    refreshBar();
+  }
+  // while the questionnaire is being filled in, start downloading the first images of this id's questions
+  var earlyTimer = null;
+  function earlyPrefetch() {
+    clearTimeout(earlyTimer);
+    earlyTimer = setTimeout(function () {
+      var pid = currentPid(); if (!pid || state) return;
+      var s = loadState(pid), list = s ? s.items.slice(s.answers.length) : assign(pid).items;
+      prefetch(list.slice(0, 10));
+    }, 700);
+  }
+  $("pidInput").addEventListener("input", function () { refreshResume(); saveDraft(); earlyPrefetch(); });
+  $("startForm").addEventListener("change", saveDraft);
+  $("startForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var pid = currentPid(), err = $("startErr");
+    if (!pid) { err.textContent = "请先填写实验编号。"; err.hidden = false; $("pidInput").focus(); return; }
+    var s = loadState(pid);
+    if (s && (s.answers.length || s.post)) { state = s; restShown = s.answers.length > HALF; resume(); return; }
+    var f = e.target, prof = {};
+    var missing = PROFILE.filter(function (n) { var c = f.querySelector('input[name="' + n + '"]:checked'); if (c) prof[n] = c.value; return !c; });
+    if (missing.length) { err.textContent = "问卷还有题目没有选，请把 1–5 题都选上。"; err.hidden = false; return; }
+    var a = assign(pid);
+    var coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+    state = { version: DATA.version, pid: pid, session: token(), offset: a.offset, items: a.items, profile: prof,
+              device: coarse ? "touch" : "desktop", started_at: new Date().toISOString(), finished_at: null, saved_at: null,
+              answers: [], post: null };
+    restShown = false;
+    save();
+    resume();
+  });
+  function resume() {
+    if (state.post) renderDone();
+    else if (state.answers.length >= state.items.length) show("post");
+    else renderQuestion();
+  }
+
+  // ---- questions
+  // A question becomes answerable only once its own image is on screen: until then the previous image is hidden, a
+  // loading note shows, the options are disabled, and the time on screen (rt_ms) starts when the image appears.
+  function imgSrc(iid) { return "img/" + iid + ".webp"; }
+
+  // Background download of every image a participant will need, kept in memory as blob URLs (about 4 MB for 100
+  // images), so later questions never wait for the network and the host's short cache lifetime does not matter.
+  // Up to PARALLEL downloads at once, in answering order from the current question. Where fetch is unavailable (a page
+  // opened from disk), images simply load one by one as before.
+  var PARALLEL = 6, blobs = {}, inflight = {}, queue = [], active = 0;
+  var canFetch = !!(window.fetch && window.URL && URL.createObjectURL) && location.protocol !== "file:";
+  function pump() {
+    while (active < PARALLEL && queue.length) {
+      var iid = queue.shift();
+      if (blobs[iid] || inflight[iid]) continue;
+      active++;
+      inflight[iid] = (function (id) {
+        return fetch(imgSrc(id)).then(function (r) { if (!r.ok) throw new Error(r.status); return r.blob(); })
+          .then(function (b) { blobs[id] = URL.createObjectURL(b); }, function () { /* the page falls back to the network URL */ })
+          .then(function () { delete inflight[id]; active--; pump(); });
+      })(iid);
+    }
+  }
+  function prefetch(ids) {                       // ids first, then whatever was already waiting
+    if (!canFetch) return;
+    var rest = queue.filter(function (x) { return ids.indexOf(x) < 0; });
+    queue = ids.filter(function (x) { return x && !blobs[x]; }).concat(rest);
+    pump();
+  }
+  function srcFor(iid, cb) {
+    if (blobs[iid]) return cb(blobs[iid]);
+    if (inflight[iid]) {
+      var used = false, go = function () { if (!used) { used = true; cb(blobs[iid] || imgSrc(iid)); } };
+      inflight[iid].then(go); setTimeout(go, 12000);     // do not wait forever on one download
+      return;
+    }
+    cb(imgSrc(iid));
+  }
+  function preloadAhead(k) { if (state) prefetch(state.items.slice(k)); }
+  var imgReady = false, loadToken = 0, loadTimer = null;
+  function setOptionsEnabled(on) { Array.prototype.forEach.call($("choices").children, function (b) { b.disabled = !on; }); }
+  function loadImage(iid, retry) {
+    var token = ++loadToken, img = $("shot"), boxEl = $("shotbox");
+    imgReady = false; ready = false; clearTimeout(readyTimer); clearTimeout(loadTimer);
+    img.style.visibility = "hidden"; img.removeAttribute("src");
+    boxEl.classList.add("loading"); $("imgErr").hidden = true; $("loadingNote").hidden = false;
+    setOptionsEnabled(false); $("nextBtn").disabled = true;
+    var done = function () {
+      if (token !== loadToken || imgReady) return;
+      imgReady = true; clearTimeout(loadTimer);
+      img.style.visibility = "visible"; boxEl.classList.remove("loading"); $("loadingNote").hidden = true;
+      setOptionsEnabled(true);
+      shownAt = performance.now();
+      readyTimer = setTimeout(function () { ready = true; if (picked) $("nextBtn").disabled = false; }, MIN_MS);
+    };
+    var fail = function () {
+      if (token !== loadToken || imgReady) return;
+      $("loadingNote").hidden = true; $("imgErr").hidden = false;
+    };
+    img.onload = done; img.onerror = fail;
+    loadTimer = setTimeout(fail, 25000);          // offer a retry if nothing arrived after 25 s
+    if (retry) { delete blobs[iid]; img.src = imgSrc(iid) + "?r=" + Date.now(); return; }
+    srcFor(iid, function (src) {
+      if (token !== loadToken) return;
+      img.src = src;
+      if (img.complete && img.naturalWidth) done();
+    });
+  }
+  $("imgRetry").addEventListener("click", function () { var iid = state && state.items[state.answers.length]; if (iid) loadImage(iid, true); });
+  function renderQuestion() {
+    var k = state.answers.length, n = state.items.length;
+    if (k >= n) { show("post"); return; }
+    if (k === HALF && !restShown) { renderRest(); return; }
+    var iid = state.items[k], it = DATA.items[iid];
+    $("actEn").textContent = it.action; $("actZh").textContent = it.action_zh;
+    $("qEn").textContent = DATA.question; $("qZh").textContent = DATA.question_zh;
+    var box = $("choices"); box.textContent = "";
+    picked = null; $("nextBtn").disabled = true;
+    it.options.forEach(function (o) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "choice"; b.dataset.letter = o[0];
+      b.setAttribute("role", "radio"); b.setAttribute("aria-checked", "false");
+      var key = document.createElement("span"); key.className = "key"; key.textContent = o[0];
+      var txt = document.createElement("span"); txt.className = "txt";
+      var en = document.createElement("span"); en.textContent = o[1];
+      var zh = document.createElement("span"); zh.className = "zh"; zh.textContent = o[2];
+      txt.appendChild(en); txt.appendChild(zh); b.appendChild(key); b.appendChild(txt);
+      b.addEventListener("click", function () { pick(o[0]); });
+      box.appendChild(b);
+    });
+    show("quiz");
+    preloadAhead(k);              // this question's image first, then all later ones
+    loadImage(iid, false);
+  }
+  function pick(letter) {
+    if (!imgReady) return;
+    picked = letter;
+    Array.prototype.forEach.call($("choices").children, function (b) { b.setAttribute("aria-checked", String(b.dataset.letter === letter)); });
+    $("nextBtn").disabled = !ready;
+  }
+  function confirmAnswer() {
+    if (!picked || !ready || !imgReady || screen !== "quiz") return;
+    var k = state.answers.length;
+    state.answers.push({ order: k + 1, id: state.items[k], choice: picked, rt_ms: Math.round(performance.now() - shownAt), at: new Date().toISOString() });
+    picked = null;
+    save();
+    renderQuestion();
+  }
+  function renderRest() {
+    var k = state.answers.length, n = state.items.length;
+    restShown = true;
+    $("restTitle").textContent = "已完成 " + k + " / " + n + " 题";
+    $("restText").textContent = "已经做完一半，可以休息一下。还剩 " + (n - k) + " 题，准备好了就点“继续作答”。";
+    all(".nNext").forEach(function (el) { el.textContent = k + 1; });
+    show("rest");
+    preloadAhead(k);
+  }
+  $("restGo").addEventListener("click", renderQuestion);
+  $("nextBtn").addEventListener("click", confirmAnswer);
+  document.addEventListener("keydown", function (e) {
+    if (screen !== "quiz" || !state || !$("exportSheet").hidden || !$("zoom").hidden) return;
+    var iid = state.items[state.answers.length]; if (!iid) return;
+    var it = DATA.items[iid], n = { "1": 0, "2": 1, "3": 2, "a": 0, "b": 1, "c": 2 }[e.key.toLowerCase()];
+    if (n !== undefined && it.options[n]) { pick(it.options[n][0]); e.preventDefault(); }
+    else if (e.key === "Enter" && picked) { confirmAnswer(); e.preventDefault(); }
+  });
+  $("shot").addEventListener("click", function () { if (!imgReady) return; $("zoomImg").src = $("shot").src; $("zoom").hidden = false; });
+  $("zoom").addEventListener("click", function () { $("zoom").hidden = true; });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") { $("zoom").hidden = true; closeExport(); } });
+
+  // ---- last question and the end
+  $("postForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var c = e.target.querySelector('input[name="basis"]:checked');
+    if (!c) { $("postErr").hidden = false; return; }
+    state.post = { basis: c.value, note: $("note").value.slice(0, 1000) };
+    state.finished_at = new Date().toISOString(); save(); renderDone();
+  });
+  function renderDone() {
+    var mins = state.started_at && state.finished_at ? Math.round((new Date(state.finished_at) - new Date(state.started_at)) / 60000) : null;
+    $("doneSummary").textContent = "实验编号 “" + state.pid + "”：已完成全部 " + state.answers.length + " 题" + (mins !== null ? "，历时约 " + mins + " 分钟。" : "。");
+    exportTarget = state; fillDumps(state);
+    show("done");
+  }
+  $("anotherBtn").addEventListener("click", function () {
+    state = null; exportTarget = null; restShown = false; $("startForm").reset(); $("pidInput").value = "";
+    try { localStorage.removeItem(PREFIX + "draft"); } catch (e) { /* ignore */ }
+    refreshResume(); show("intro");
+  });
+  window.addEventListener("pagehide", function () { if (state) save(); });
+
+  all(".nTotal").forEach(function (el) { el.textContent = TOTAL; });
+  all(".nHalf").forEach(function (el) { el.textContent = HALF; });
+  if (!canStore) $("storageWarn").hidden = false;
+  loadDraft();
+  refreshResume();
+  earlyPrefetch();
+  show("intro");
+})();
+</script>
+</body>
+</html>

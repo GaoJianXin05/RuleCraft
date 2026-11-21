@@ -1,0 +1,7 @@
+# Reproducing the results (analysis/reproduce.py, human_study/score.py) and calling the APIs needs only the
+# Python 3.10+ standard library. The packages below are needed for the parts named in the comments.
+pillow>=10.0        # human_study/build.py, the Terraria renderer and the Stardew image crops
+numpy>=1.24         # open models (rulecraft/openvlm/)
+torch>=2.3          # open models
+transformers>=4.57  # open models (Qwen3.5-VL-9B, InternVL3.5-8B)
+accelerate>=0.34    # open models

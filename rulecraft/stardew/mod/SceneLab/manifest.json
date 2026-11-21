@@ -1,0 +1,9 @@
+{
+ "Name": "SceneLab",
+ "Author": "RuleCraft",
+ "Version": "1.0.0",
+ "Description": "Builds benchmark scenes, takes screenshots, advances time and reads back the game state.",
+ "UniqueID": "RuleCraft.SceneLab",
+ "EntryDll": "SceneLab.dll",
+ "MinimumApiVersion": "4.0.0"
+}
