@@ -170,7 +170,7 @@ summarize the outputs. One GPU with 24 GB is enough for both models in bfloat16.
 ```bibtex
 @article{rulecraft2026,
   title   = {Multimodal {LLMs} Know the Game but Assume the Real World},
-  author  = {Gao, Jianxin},
+  author  = {Gao, Jianxin and Chen, Bohan and Li, Runze and Zhang, Qi},
   journal = {arXiv preprint},
   year    = {2026}
 }
