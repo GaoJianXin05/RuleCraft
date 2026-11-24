@@ -1,7 +1,8 @@
 # 🎮 RuleCraft
 
-**Code for the paper *Multimodal LLMs Know the Game but Assume the Real World*.**
+**Code for the paper [*Multimodal LLMs Know the Game but Assume the Real World*](https://arxiv.org/abs/2611.28745).**
 
+[![arXiv](https://img.shields.io/badge/arXiv-2611.28745-b31b1b)](https://arxiv.org/abs/2611.28745)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-RuleCraft-yellow)](https://huggingface.co/datasets/GGjx/RuleCraft)
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
@@ -171,8 +172,9 @@ summarize the outputs. One GPU with 24 GB is enough for both models in bfloat16.
 @article{rulecraft2026,
   title   = {Multimodal {LLMs} Know the Game but Assume the Real World},
   author  = {Gao, Jianxin and Chen, Bohan and Li, Runze and Zhang, Qi},
-  journal = {arXiv preprint},
-  year    = {2026}
+  journal = {arXiv preprint arXiv:2611.28745},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.28745}
 }
 ```
 
